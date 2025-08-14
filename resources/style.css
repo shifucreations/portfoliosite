@@ -4,7 +4,7 @@
 }
 
 /*header section*/
-header {
+header .scroll{
   background-color: #e6f7fe;
   border-bottom: 1px solid #466995;
   position: fixed;
@@ -16,20 +16,20 @@ header {
   justify-content: space-between;
 }
 
-header img{
+header .scroll img{
     height: 200px;
     width: 200px;
     padding-left: 50px;
     display: inline;
 }
 
-header ul {
+header .scroll ul {
   margin: 20px auto;
   padding: 0 20px;
   text-align: center;
 }
 
-header li{
+header .scroll li{
   color: black;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -39,7 +39,28 @@ header li{
   width: 100px;
 }
 
-header a{
+header .scroll i{
+  color: #7ba4fc;
+}
+
+header .sticky{
+  background-color: #b1d1d1;
+  color: white;
+  position: sticky;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .sticky ul{
+  padding: 10px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+header .sticky a{
     color:#341e1e;
     transition: color 200ms ease-out 100ms;
 }
