@@ -4,7 +4,7 @@
 }
 
 /*header section*/
-header .scroll{
+header {
   background-color: #e6f7fe;
   border-bottom: 1px solid #466995;
   position: fixed;
@@ -16,37 +16,39 @@ header .scroll{
   justify-content: space-between;
 }
 
-header .scroll img{
+header img{
     height: 200px;
     width: 200px;
     padding-left: 50px;
     display: inline;
 }
 
-header .scroll ul {
+header ul {
   margin: 20px auto;
   padding: 0 20px;
   text-align: center;
+  display: inline-block;
 }
 
-header .scroll li{
+header li{
   color: black;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  text-decoration:underline;
   display: inline-block;
-  width: 100px;
+  width: 300px;
 }
 
-header .scroll i{
+header i{
   color: #7ba4fc;
+  font-size: 1.5rem;
 }
 
-header .sticky{
+.menu {
   background-color: #b1d1d1;
   color: white;
-  position: sticky;
+  position: relative;
+  top: 200px;
   width: 100%;
   z-index: 10;
   display: flex;
@@ -54,13 +56,13 @@ header .sticky{
   align-items: center;
 }
 
-header .sticky ul{
+.menu ul{
   padding: 10px;
   margin: 0px auto;
   text-align: center;
 }
 
-header .sticky a{
+.menu .a{
     color:#341e1e;
     transition: color 200ms ease-out 100ms;
 }
@@ -69,6 +71,6 @@ a:hover {
   color: #d27171;
 }
 
-header nav {
+.menu nav {
     display:inline-block;
 }
