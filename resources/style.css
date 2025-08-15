@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+p{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
 /*header section*/
 header .uppercontainer{
   background-color: #e6f7fe;
@@ -20,18 +25,18 @@ header img{
     display: inline;
 }
 
-header ul {
+header .uppercontainer ul {
   margin: 20px auto;
   padding: 0 20px;
   text-align: center;
   display: inline-block;
 }
 
-header li{
+header .uppercontainer li{
   color: black;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Urbanist', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   display: inline-block;
   width: 300px;
 }
@@ -50,21 +55,23 @@ header .menu {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 header .menu ul{
-  padding: 20px;
   text-align: center;
   display: inline;
   width: 70%;
 }
 
-header.menu li{
-  color: black;
-  font-family: 'Oswald', sans-serif;
+header .menu li{
+  color: white;
+  font-family: 'Urbanist', sans-serif;
   font-size: 16px;
-  font-weight: 300;
-  display: inline;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 0px;
+  width: 100px;
 }
 
 header .menu .a{
