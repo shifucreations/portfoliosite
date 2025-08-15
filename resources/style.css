@@ -168,6 +168,14 @@ a:hover {
 
 /*services section*/
 
+#servicestitle{
+  text-align: center;
+  font-size: 3rem;
+  padding: 40px 0px;
+  font-weight: 700;
+  color: #95bbbb;
+}
+
 .servicessection{
     display: block;
 }
@@ -221,4 +229,39 @@ a:hover {
     text-align: center;
     font-size: 2.5rem;
     padding-bottom: 20px;
+}
+
+/*Breng je ideeen tot leven*/
+.ideeen{
+  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  max-height: 1040px;
+}
+
+.ideeen .clouds{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+
+.ideeen .clouds img{
+  width: 350px;
+  height: 250px;
+}
+
+.ideeen h1{
+  text-align: center;
+  font-size: 4rem;
+}
+
+.ideeen .laptopimage{
+  display: flex;
+  justify-content: center;
+}
+
+.ideeen .laptopimage #laptop{
+  height: 700px;
+  width: 1050px;
+  margin-top: 60px;
 }
