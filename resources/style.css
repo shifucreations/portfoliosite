@@ -56,6 +56,7 @@ header .menu {
   background-color: #b1d1d1;
   color: white;
   position: sticky;
+  top: 0px;
   width: 100%;
   z-index: 10;
   display: flex;
@@ -112,6 +113,24 @@ a:hover {
   background-color: #cfdcfc;
 }
 
+@media only screen and (max-width: 1440px){
+  .herosection #computerscreen{
+    min-height: 500px;
+  }
+  .herosection #computerscreen #imagebox{
+    height: 350px;
+    width: 250px;
+    margin-left: 20px;
+  }
+  .herosection{
+    min-height: 650px;
+  }
+  .herosection #computerscreen #titlebox h1{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
 .herosection #computerscreen #titlebox{
   align-content: center;
 }
@@ -163,14 +182,28 @@ a:hover {
 .servicessection .services .servicebox{
     background-color:#e6f7fe;
     border-radius: 20px;
-    min-width: 350px;
-    min-height: 160px;
+    min-width: 400px;
+    min-height: 180px;
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    margin: 30px;
+    padding-top: 80px;
+    margin: 40px;
     align-content: center;
     box-shadow: 0 4px 4px 0 rgba(134, 134, 134, 0.2), 0 5px 14px 0 rgba(138, 138, 138, 0.19);
+    transition: background-color 200ms ease-out 100ms;
+}
+
+.servicessection .services .servicebox:hover{
+  background-color: #dbe4fc;
+}
+ 
+@media only screen and (max-width: 1440px){
+  .servicessection .services .servicebox{
+    min-width: 350px;
+    min-height: 160px;
+    padding-top: 60px;
+    margin: 30px;
+  }
 }
 
 .servicessection .services .servicebox h2{
