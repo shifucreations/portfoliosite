@@ -21,21 +21,22 @@ header .uppercontainer{
 header img{
     height: 200px;
     width: 200px;
-    padding-left: 50px;
+    padding-left: 90px;
     display: inline;
 }
 
 header .uppercontainer ul {
   margin: 20px auto;
-  padding: 0 20px;
+  padding-right: 90px;
   text-align: center;
   display: inline-block;
 }
 
+
 header .uppercontainer li{
   color: black;
   font-family: 'Urbanist', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   display: inline-block;
   width: 300px;
