@@ -4,12 +4,9 @@
 }
 
 /*header section*/
-header {
+header .uppercontainer{
   background-color: #e6f7fe;
-  border-bottom: 1px solid #466995;
-  position: fixed;
   width: 100%;
-  z-index: 10;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -44,11 +41,10 @@ header i{
   font-size: 1.5rem;
 }
 
-.menu {
+header .menu {
   background-color: #b1d1d1;
   color: white;
-  position: relative;
-  top: 200px;
+  position: sticky;
   width: 100%;
   z-index: 10;
   display: flex;
@@ -56,21 +52,26 @@ header i{
   align-items: center;
 }
 
-.menu ul{
-  padding: 10px;
-  margin: 0px auto;
+header .menu ul{
+  padding: 20px;
   text-align: center;
+  display: inline;
+  width: 70%;
 }
 
-.menu .a{
+header.menu li{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline;
+}
+
+header .menu .a{
     color:#341e1e;
     transition: color 200ms ease-out 100ms;
 }
 
 a:hover {
   color: #d27171;
-}
-
-.menu nav {
-    display:inline-block;
 }
