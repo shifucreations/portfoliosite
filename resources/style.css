@@ -14,7 +14,7 @@ h1{
 }
 
 /*header section*/
-header .uppercontainer{
+header {
   background-color: white;
   width: 100%;
   display: flex;
@@ -30,7 +30,7 @@ header img{
     display: inline;
 }
 
-header .uppercontainer ul {
+header ul {
   margin: 20px auto;
   padding-right: 50px;
   text-align: center;
@@ -38,7 +38,7 @@ header .uppercontainer ul {
 }
 
 
-header .uppercontainer li{
+header li{
   color: black;
   font-family: 'Urbanist', sans-serif;
   font-size: 14px;
@@ -52,12 +52,14 @@ header i{
   font-size: 1.5rem;
 }
 
-header .menu {
+/*menubar*/
+
+.menubar {
   background-color: #b1d1d1;
   color: white;
   position: sticky;
   top: 0px;
-  width: 100%;
+  min-width: 100%;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
@@ -65,23 +67,23 @@ header .menu {
   justify-content: center;
 }
 
-header .menu ul{
+.menubar ul{
   text-align: center;
   display: inline;
   width: 70%;
 }
 
-header .menu li{
+.menubar li{
   color: white;
   font-family: 'Urbanist', sans-serif;
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
-  padding: 10px 0px;
+  padding: 20px 0px;
   width: 100px;
 }
 
-header .menu .a{
+.menubar .a{
     color:#341e1e;
     transition: color 200ms ease-out 100ms;
 }
