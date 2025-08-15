@@ -8,9 +8,14 @@ p{
   font-size: 18px;
 }
 
+h1{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
 /*header section*/
 header .uppercontainer{
-  background-color: #e6f7fe;
+  background-color: white;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +32,7 @@ header img{
 
 header .uppercontainer ul {
   margin: 20px auto;
-  padding-right: 90px;
+  padding-right: 50px;
   text-align: center;
   display: inline-block;
 }
@@ -82,4 +87,41 @@ header .menu .a{
 
 a:hover {
   color: #d27171;
+}
+
+/*herosection*/
+
+.herosection{
+  min-height: 700px;
+  background-color: #e6f7fe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.herosection #computerscreen{
+  border: 20px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 600px;
+  min-width: 60%;
+  justify-content: center;
+  align-content: center;
+}
+
+.herosection #computerscreen #titlebox{
+  align-content: center;
+}
+
+.herosection #computerscreen #titlebox h1{
+  text-align: center;
+  font-size: 3.2em;
+}
+
+.herosection #computerscreen #imagebox img{
+  height: 340px;
+  width: 200px;
+  padding-right: 70px;
 }
