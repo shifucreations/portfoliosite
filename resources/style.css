@@ -131,8 +131,6 @@ a:hover {
     min-height: 550px;
   }
   .herosection #computerscreen #imagebox{
-    height: 350px;
-    width: 250px;
     margin-left: 20px;
   }
   .herosection{
@@ -174,7 +172,7 @@ a:hover {
 }
 
 .herosection #computerscreen #imagebox{
-  height: 400px;
+  height: 350px;
   width: 300px;
   border-radius: 20px;
   background-image: url(../resources/images/download\ \(8\).jpeg);
@@ -184,8 +182,8 @@ a:hover {
 }
 
 .herosection #computerscreen #imagebox img{
-  height: 290px;
-  width: 165px;
+  height: 250px;
+  width: 150px;
   margin-left: 25px;
 }
 
@@ -314,6 +312,75 @@ a:hover {
     height: 650px;
     width: 1000px;
   }
+}
+
+
+/*columns with icons*/
+.iconsection{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 700px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.iconsection .iconbox{
+    background-color: white;
+    border-radius: 20px;
+    min-width: 450px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 30px;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(134, 134, 134, 0.2), 0 5px 14px 0 rgba(138, 138, 138, 0.19);
+    transition: background-color 200ms ease-out 100ms;
+}
+
+.iconsection .iconbox h2{
+  padding: 20px 0px;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.iconsection #creatief:hover{
+  background-color: #dee6fa;
+}
+
+.iconsection #functioneel:hover{
+  background-color: #e6f7fe;
+}
+
+.iconsection #support:hover{
+  background-color: #c8e0e0;
+}
+
+.iconsection #creatief img{
+  height: 63px;
+  width: 66px;
+}
+
+.iconsection #functioneel img{
+  height: 75px;
+  width: 75px;
+}
+
+.iconsection #support img{
+  height: 67px;
+  width: 74px;
+}
+
+.iconsection .iconbox p{
+  max-width: 300px;
+  color: rgb(73, 73, 73);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.7rem;
 }
 
 /*review section*/
