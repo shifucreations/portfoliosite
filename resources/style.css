@@ -106,7 +106,7 @@ a:hover {
 /*herosection*/
 
 .herosection{
-  min-height: 700px;
+  min-height: 750px;
   background-color: #e6f7fe;
   display: flex;
   flex-wrap: wrap;
@@ -124,6 +124,9 @@ a:hover {
   justify-content: center;
   align-content: center;
   background-color: #cfdcfc;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 @media only screen and (max-width: 1440px){
