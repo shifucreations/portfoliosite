@@ -383,6 +383,22 @@ a:hover {
   line-height: 1.7rem;
 }
 
+@media only screen and (max-width: 1440px){
+  .iconsection .iconbox{
+    min-width: 350px;
+    min-height: 400px;
+    margin: 15px;
+  }
+
+  .iconsection .iconbox p{
+    max-width: 270px;
+  }
+  .iconsection{
+    justify-content: center;
+    min-height: 600px;
+  }
+}
+
 /*review section*/
 .reviews{
     background-image: url(../resources/images/background\ review.png);
