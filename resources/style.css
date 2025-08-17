@@ -418,12 +418,18 @@ a:hover {
 }
 
 /*review section*/
+
+.reviewtitle{
+  display: flex;
+  justify-content: center;
+}
+
+.reviewtitle h1{
+  
+}
+
 .reviews{
-    background-image: url(../resources/images/background\ review.png);
-    background-size:cover;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
