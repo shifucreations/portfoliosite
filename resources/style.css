@@ -416,6 +416,20 @@ a:hover {
   }
 }
 
+/*recente projecten*/
+.projecten{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 600px;
+  align-content: center;
+}
+
+.projecten .previewimage img{
+  height: 300px;
+  width: 500px;
+}
+
 /*review section*/
 
 .reviewtitle{
