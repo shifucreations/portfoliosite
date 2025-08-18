@@ -103,3 +103,38 @@ header i{
 a:hover {
   color: black;
 }
+
+/*header and intro*/
+.over{
+  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  max-height: 500px;
+  padding-top: 100px;
+}
+
+.over h1{
+  text-align: center;
+  font-size: 4rem;
+}
+
+.over #intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.over p{
+  max-width: 650px;
+  padding-top: 40px;
+}
+
+.over .laptopimage{
+  display: flex;
+  justify-content: center;
+}
+
+.over .laptopimage #laptop{
+  height: 400px;
+  width: 700px;
+  margin-top: 30px;
+}
