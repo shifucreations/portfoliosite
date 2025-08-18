@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1{
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+button{
+  background-color:#e6f7fe;
+  color: rgb(70, 70, 70);
+  font-weight: 600;
+  border-radius: 7px;
+  font-size: 15px;
+  padding: 15px 17px;
+  box-shadow: rgb(0, 0, 0) 3px 3px;
+  border: 2px solid black;
+}
+
+
+/*header section*/
+header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img{
+    height: 200px;
+    width: 200px;
+    padding-left: 90px;
+    display: inline;
+}
+
+header ul {
+  margin: 20px auto;
+  padding-right: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+header li{
+  color: black;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  width: 300px;
+}
+
+header i{
+  color: #7ba4fc;
+  font-size: 1.5rem;
+}
+
+/*menubar*/
+
+.menubar {
+  background-color: #b1d1d1;
+  color: white;
+  position: sticky;
+  top: 0px;
+  min-width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menubar ul{
+  text-align: center;
+  display: inline;
+  width: 70%;
+}
+
+.menubar li{
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 20px 0px;
+  width: 100px;
+}
+
+.menubar .a{
+    color:#341e1e;
+    transition: color 200ms ease-out 100ms;
+}
+
+a:hover {
+  color: #d27171;
+}
