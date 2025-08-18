@@ -115,15 +115,26 @@ a:hover {
 
 .portfoliohero{
     display: flex;
+    flex-wrap: wrap;
     min-height: 400px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     background-color: #e6f7fe;
 }
 
+.portfoliohero h1{
+  font-size: 4rem;
+  margin-left: 100px;
+}
+
+.portfoliohero .websitecolumn{
+  min-width: 350px;
+  margin: 0px 50px;
+}
+
 .portfoliohero .websitecolumn #topbar{
-    height: 25px;
+    height: 27px;
     background-color:#7ba4fc;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -132,7 +143,24 @@ a:hover {
     border-top: 3px solid black;
 }
 
+.portfoliohero .websitecolumn #bottombar{
+  height: 27px;
+  background-color:#7ba4fc;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  margin-top: -10px;
+}
+
+
 .portfoliohero .websitecolumn img{
-    height: 200px;
-    width: 350px;
+  height: 180px;
+  width: 330px;
+  padding: 50px 10px;
+  background-image: url(../resources/images/download\ \(8\).jpeg);
+  background-attachment: fixed;
+  background-size: contain;
+  border: 3px solid black;
 }
