@@ -126,6 +126,9 @@ a:hover {
 .over p{
   max-width: 650px;
   padding-top: 40px;
+  line-height: 1.7rem;
+  font-weight: 500px;
+  font-size: 17px;
 }
 
 .over .laptopimage{
@@ -153,7 +156,7 @@ a:hover {
 /*hoe begonnen*/
 
 .meerover{
-    padding-top: 200px;
+    padding-top: 230px;
     padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -163,10 +166,12 @@ a:hover {
 }
 
 .meerover .hoebegonnen{
-    width: 500px;
+    max-width: 500px;
     text-align: left;
     padding-bottom: 30px;
     margin-right: 20px;
+    position: sticky;
+    top: 100px;
 }
 
 .meerover .hoebegonnen h2{
@@ -193,7 +198,7 @@ a:hover {
 }
 
 .meerover .kwaliteiten .kwaliteit{
-    margin: 20px auto;
+    margin-bottom: 35px;
     text-align: left;
     padding: 0px 20px;
     display: flex;
@@ -216,7 +221,7 @@ a:hover {
 }
 
 .meerover .kwaliteiten .kwaliteit i{
-    font-size: 24px;
+    font-size: 27px;
     display: inline;
     color:cadetblue;
 }
