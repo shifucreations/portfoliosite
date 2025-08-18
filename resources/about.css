@@ -149,3 +149,74 @@ a:hover {
     max-height: 450px;
   }
 }
+
+/*hoe begonnen*/
+
+.meerover{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0 auto;
+}
+
+.meerover .hoebegonnen{
+    width: 500px;
+    text-align: left;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+.meerover .hoebegonnen h2{
+    color:cadetblue;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+.meerover .hoebegonnen p{
+    padding: 0px 10px;
+    line-height: 1.7rem;
+    color:rgb(77, 77, 77);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.meerover .kwaliteiten{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    padding-right: 10px;
+}
+
+.meerover .kwaliteiten .kwaliteit{
+    margin: 20px auto;
+    text-align: left;
+    padding: 0px 20px;
+    display: flex;
+}
+
+.meerover .kwaliteiten .kwaliteit h2{
+    color:cadetblue;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.meerover .kwaliteiten .kwaliteit p{
+    padding-left:15px;
+    line-height: 1.7rem;
+    color:rgb(77, 77, 77);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.meerover .kwaliteiten .kwaliteit i{
+    font-size: 24px;
+    display: inline;
+    color:cadetblue;
+}
