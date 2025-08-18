@@ -95,11 +95,11 @@ header i{
   width: 100px;
 }
 
-.menubar .a{
-    color:#341e1e;
+.menubar a{
+    color: white;
     transition: color 200ms ease-out 100ms;
 }
 
 a:hover {
-  color: #d27171;
+  color: black;
 }
