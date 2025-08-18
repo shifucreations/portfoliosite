@@ -322,11 +322,11 @@ a:hover {
     height: 170px;
   }
   .ideeen{
-    max-height:862px;
+    max-height:780px;
   }
   .ideeen .laptopimage #laptop{
-    height: 650px;
-    width: 1000px;
+    height: 550px;
+    width: 840px;
   }
 }
 
