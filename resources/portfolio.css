@@ -110,3 +110,29 @@ header i{
 a:hover {
   color: black;
 }
+
+/*hero section*/
+
+.portfoliohero{
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #e6f7fe;
+}
+
+.portfoliohero .websitecolumn #topbar{
+    height: 25px;
+    background-color:#7ba4fc;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.portfoliohero .websitecolumn img{
+    height: 200px;
+    width: 350px;
+}
