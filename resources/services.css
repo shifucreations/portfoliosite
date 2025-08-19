@@ -218,7 +218,7 @@ a:hover {
   justify-content: center;
   align-content: center;
   background-color: #292929;
-  box-shadow: rgba(14, 14, 14, 0.4) 0px 2px 4px, rgba(146, 146, 146, 0.3) 0px 7px 13px -7px, rgba(134, 134, 134, 0.2) 0px -7px 0px inset;
+  box-shadow: rgba(14, 14, 14, 0.4) 0px 2px 4px, rgba(146, 146, 146, 0.3) 0px 7px 13px -10px, rgba(134, 134, 134, 0.2) 0px -10px 0px inset;
 }
 
 .keyboardsection .keyboard .upperrow{
@@ -251,6 +251,11 @@ a:hover {
     padding-right: 16px;
     text-align: center;
     padding-top: 6px;
+    transition: 150ms ease-out 50ms;
+}
+
+.keyboardsection .keyboard .item:hover{
+    margin-bottom: 10px;
 }
 
 .keyboardsection .keyboard h2{
@@ -271,5 +276,14 @@ a:hover {
     font-size: 22px;
 }
 
+@media only screen and (max-width: 1440px){
+    .keyboardsection .keyboard{
+        max-width: 1100px;
+    }
+    #stand img{
+        width: 700px;
+        height: auto;
+    }
+}
 
 
