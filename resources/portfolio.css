@@ -165,6 +165,12 @@ a:hover {
   border: 3px solid black;
 }
 
+@media only screen and (max-width: 1440px){
+  .portfoliohero{
+    min-height: 500px;
+  }
+}
+
 /*websites*/
 
 .websites{
@@ -227,4 +233,37 @@ a:hover {
 }
 
 /*visitekaartjes*/
+
+
+/*review section*/
+
+.reviewtitle{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
+.reviews{
+    background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 350px;
+    align-content: center;
+    padding-bottom: 80px;
+}
+
+.reviews .reviewbox{
+     text-align: center;
+     padding: 50px;
+     background-color: white;
+     max-height: 250px;
+     max-width: 400px;
+     margin: 0px 40px;
+     border-radius: 20px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
