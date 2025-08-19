@@ -188,6 +188,17 @@ a:hover {
   margin-left: 25px;
 }
 
+#stand{
+  display:flex;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+#stand img{
+    max-width: 800px;
+    height: auto;
+}
+
 /*keyboard*/
 
 .keyboardsection{
@@ -195,7 +206,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
 }
 
 .keyboardsection .keyboard{
