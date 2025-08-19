@@ -111,51 +111,90 @@ a:hover {
   color: black;
 }
 
-/*header and intro*/
-.over{
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
-  max-height: 500px;
-  padding-top: 100px;
-}
+/*herosection*/
 
-.over h1{
-  text-align: center;
-  font-size: 4rem;
-}
-
-.over #intro{
+.herosection{
+  min-height: 750px;
+  background-color: #e6f7fe;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  align-content: flex-end;
 }
 
-.over p{
-  max-width: 650px;
-  padding-top: 40px;
-  line-height: 1.7rem;
-  font-weight: 500px;
-  font-size: 17px;
-}
-
-.over .laptopimage{
+.herosection #computerscreen{
+  border: 20px solid black;
+  border-radius: 15px;
   display: flex;
+  flex-wrap: wrap;
+  min-height: 600px;
+  min-width: 60%;
   justify-content: center;
-}
-
-.over .laptopimage #laptop{
-  height: 400px;
-  width: 700px;
-  margin-top: 30px;
+  align-content: center;
+  background-color: #cfdcfc;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 @media only screen and (max-width: 1440px){
-  .over .laptopimage #laptop{
-    height: 330px;
-    width: 590px;
-    margin-top: 20px;
+  .herosection #computerscreen{
+    min-height: 550px;
   }
-  .over{
-    max-height: 450px;
+  .herosection #computerscreen #imagebox{
+    margin-left: 20px;
   }
+  .herosection{
+    min-height: 700px;
+  }
+  .herosection #computerscreen #titlebox h1{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.herosection #computerscreen #titlebox{
+  align-content: center;
+}
+
+.herosection #computerscreen #titlebox h1{
+  text-align: center;
+  font-size: 2.5em;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.herosection #computerscreen #titlebox p{
+  max-width: 650px;
+  font-weight: 500;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 18px;
+  line-height: 1.7rem;
+}
+
+
+.herosection #computerscreen #titlebox #buttonbox{
+  padding-left: 30px;
+  padding-top: 24px;
+}
+
+.herosection #computerscreen #imagebox{
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  background-image: url(../resources/images/download\ \(8\).jpeg);
+  background-size: contain;
+  background-attachment: fixed;
+  align-content: flex-end;
+}
+
+.herosection #computerscreen #imagebox img{
+  height: 250px;
+  width: 150px;
+  margin-left: 25px;
+}
+
+#stand{
+  display:flex;
+  align-content: flex-start;
+  justify-content: center;
 }
