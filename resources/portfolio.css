@@ -164,3 +164,64 @@ a:hover {
   background-size: contain;
   border: 3px solid black;
 }
+
+/*websites*/
+
+.websites{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 450px;
+  align-content: center;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.websitetitle h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #95bbbb;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.websites .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 450px;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.websites p{
+  max-width: 400px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.7rem;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.websites img{
+  height: 300px;
+  width: 500px;
+  transition: 500ms ease-out 200ms;
+}
+
+.websites img:hover{
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1440px){
+  .websites img{
+    height: 230px;
+    width: 400px;
+  }
+  .websites .content{
+    width: 350px;
+  }
+}

@@ -243,7 +243,7 @@ a:hover {
 
 
 .overlogo{
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  background-color: #e6f7fe;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
