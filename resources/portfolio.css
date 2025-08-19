@@ -177,7 +177,7 @@ a:hover {
   align-items: center;
 }
 
-.websitetitle h1{
+.title h1{
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
@@ -225,3 +225,6 @@ a:hover {
     width: 350px;
   }
 }
+
+/*visitekaartjes*/
+
