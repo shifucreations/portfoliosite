@@ -182,17 +182,29 @@ a:hover {
 
 .meerover .kwaliteitencontainer .topbar{
   height: 30px;
-  background-color:#b3ccfc;
+  background-color:#646464;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-top: 3px solid black;
   border-right: 3px solid black;
   border-left: 3px solid black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.meerover .kwaliteitencontainer .topbar i{
+  color: white;
+  font-size: 2.5rem;
 }
 
 .meerover .kwaliteitencontainer .bottombar{
   height:30px;
-  background-color:#b3ccfc;
+  background-color:#646464;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom: 3px solid black;
@@ -239,44 +251,7 @@ a:hover {
     color:cadetblue;
 }
 
-/*over het logo*/
 
-.imagelogo img{
-  height: 300px;
-  width: 300px;
-  margin-top: -200px;
-  margin-left: -80px;
-}
-
-
-.overlogo{
-  background-color: #e6f7fe;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  padding-bottom: 100px;
-}
-
-.overlogo .overkarakter{
-  text-align: left;
-  padding: 50px;
-  background-color: white;
-  max-width: 500px;
-  margin-top: 200px;
-  margin-right: 40px;
-  border-radius: 20px;
-  z-index: 10;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.overlogo .overkarakter p{
-  font-size: 17px;
-  line-height: 1.7rem;
-  font-weight: 500;
-  color:dimgrey;
-}
 
 /*Call to action*/
 .leesmeer{
