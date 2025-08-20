@@ -368,4 +368,115 @@ a:hover {
   }
 }
 
+/*hoe begonnen*/
+
+.hoetewerk{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+}
+
+
+.hoetewerk .textcolumn{
+    max-width: 500px;
+    text-align: left;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+.hoetewerk .textcolumn h2{
+    color:cadetblue;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+.hoetewerk .textcolumn p{
+    padding: 0px 10px;
+    line-height: 1.7rem;
+    color:rgb(77, 77, 77);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hoetewerk .stappencolumn .stappen{
+  background-color: white;
+}
+
+.hoetewerk .stappencolumn .topbar{
+  height: 30px;
+  background-color:#646464;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hoetewerk .stappencolumn .topbar i{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.hoetewerk .stappencolumn .bottombar{
+  height:30px;
+  background-color:#646464;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+
+.hoetewerk .stappencolumn .stappen{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    padding-right: 10px;
+    height: 450px;
+    overflow:scroll;
+    border: 3px solid black;
+}
+
+.hoetewerk .stappencolumn .stappen .stap{
+    margin: 30px 5px;
+    text-align: left;
+    padding: 0px 20px;
+    display: flex;
+}
+
+.hoetewerk .stappencolumn .stappen .stap h2{
+    color:cadetblue;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.hoetewerk .stappencolumn .stappen .stap p{
+    padding-left:15px;
+    line-height: 1.7rem;
+    color:rgb(77, 77, 77);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.hoetewerk .stappencolumn .stappen .stap i{
+    font-size: 27px;
+    display: inline;
+    color:cadetblue;
+}
+
 
