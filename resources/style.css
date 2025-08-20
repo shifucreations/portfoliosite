@@ -303,6 +303,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   min-height: 850px;
+  padding-bottom: 30px;
 }
 
 
@@ -310,6 +311,7 @@ a:hover {
   text-align: center;
   font-size: 3rem;
   padding-top: 100px;
+  color:#7ba4fc;
 }
 
 .ideeen .overmij{
@@ -372,7 +374,7 @@ a:hover {
 }
 
 .ideeen .overmijtext h2{
-  color:#b3ccfc;
+  color:#323232;
   padding-bottom: 15px;
   font-size: 1.5rem;
 }
