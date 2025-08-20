@@ -218,13 +218,13 @@ a:hover {
   min-width: 1180px;
   justify-content: center;
   align-content: center;
-  background-color: #292929;
+  background-color: #d8d8d8;
   box-shadow: rgba(14, 14, 14, 0.4) 0px 2px 4px, rgba(146, 146, 146, 0.3) 0px 7px 13px -10px, rgba(134, 134, 134, 0.2) 0px -10px 0px inset;
 }
 
 .keyboardsection .keyboard .keyboardtitle h1{
   text-align: center;
-  color: white;
+  color:#7ba4fc;
   font-family: monospace;
   padding-bottom: 5px;
 }
