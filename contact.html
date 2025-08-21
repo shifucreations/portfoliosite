@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<script src="js/script.js"></script>
 
   <!--header section-->
   
@@ -42,25 +43,61 @@
   </nav>
 </div>
 
+<!--contact section-->
+<div class="formcontainer">   
+  <form
+    class="contactform"
+    method="POST">
+    <div class="inputfields">
+        <div class="formfield">
+            <label class="fs-label" for="name"><p>Naam</p></label>
+            <input class="fs-input" id="name" name="name" required />
+        </div>
+        <div class="formfield">
+            <label class="fs-label" for="email"><p>Email</p></label>
+            <input class="fs-input" id="email" name="email" required />
+        </div>
+        <div class="formfield">
+            <label class="fs-label" for="message"><p>Bericht</p></label>
+            <textarea
+            class="fs-textarea"
+            id="message"
+            name="message"
+            required
+            ></textarea>
+        </div>
+        <div class="buttonbox">
+            <button class="formbutton" type="submit">Verzend</button>
+        </div>
+    </div>
+  </form>
+</div>  
+
 <!--faq accordion-->
 
-<div class="accordionsection">
-  <div class="accordion">
-    <details>
-      <summary>Hoelang duurt het voordat de website af is?</summary>
-      <div> ... </div>
-    </details>
-    <details>
-      <summary>Moet ik vooraf al een domein en hosting platform hebben?</summary>
-      <div>...</div>
-    </details>
-    <details>
-      <summary>Welke programma's gebruik je?</summary>
-      <div>...</div>
-    </details>
-    <details>
-      <summary>Wat als ik zelf nog geen inhoud heb?</summary>
-      <div>...</div>
-    </details>
+<body>
+  <h1>Accordion</h1>
+
+  <div>
+    <div class="accordionItem">
+      <h2 class="accordionTitle">Tab 1</h2>
+      <div class="accordionContent">
+        <p>Information here</p>
+      </div>
+    </div>
+
+    <div class="accordionItem">
+      <h2 class="accordionTitle">Tab 2</h2>
+      <div class="accordionContent">
+        <p>Information here</p>
+      </div>
+    </div>
+
+    <div class="accordionItem">
+      <h2 class="accordionTitle">Tab 3</h2>
+      <div class="accordionContent">
+        <p>Information here</p>
+      </div>
+    </div>
   </div>
-</div>
+</body>

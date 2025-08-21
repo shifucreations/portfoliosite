@@ -110,3 +110,68 @@ header i{
 a:hover {
   color: black;
 }
+
+/*Contact form section*/
+.formcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.formcontainer .contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.formcontainer .inputfields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color:#e6f7fe;
+    width: 700px;
+    height: 600px;
+}
+
+.formcontainer .inputfields .formfield{
+    margin-bottom: 30px;
+}
+
+.formcontainer .inputfields .formfield textarea{
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.formcontainer .inputfields .formfield input{
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+/*accordion section*/
+
+.accordionTitle {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.accordionTitle + .accordionContent {
+  display: none;
+}
+
+.accordionTitle.is-open + .accordionContent {
+  display: block;
+}
