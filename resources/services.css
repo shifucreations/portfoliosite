@@ -368,7 +368,59 @@ a:hover {
   }
 }
 
-/*hoe begonnen*/
+/*Overige services*/
+
+.overigeservices{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 600px;
+  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.overigeservices .illustratie h1{
+  color:#7ba4fc;
+  font-size: 2.5rem;
+}
+
+.overigeservices .servicescolumn{
+  max-width: 600px;
+}
+
+.overigeservices .servicescolumn .servicesboxes{
+  flex-direction: column;
+}
+
+.overigeservices .servicescolumn .servicesboxes .service{
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin: 60px 20px;
+  padding: 50px 20px;
+}
+
+.overigeservices .servicescolumn .servicesboxes .service i{
+  font-size: 3rem;
+  color: #20bad1;
+}
+
+.overigeservices .servicescolumn .servicesboxes .service h2{
+  color: #20bad1;
+  padding-left: 15px;
+}
+
+.overigeservices .servicescolumn .servicesboxes .service p{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.7rem;
+  color:#636363;
+  padding-left: 15px;
+}
+
+
+/*Zo ga ik te werk*/
 
 .hoetewerk{
     padding-top: 100px;
@@ -380,7 +432,6 @@ a:hover {
     align-items: center;
     align-content: center;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
 }
 
 
