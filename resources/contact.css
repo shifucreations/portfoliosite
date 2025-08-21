@@ -112,66 +112,76 @@ a:hover {
 }
 
 /*Contact form section*/
-.formcontainer{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+
+.contactsection{
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.formcontainer .contactform{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    justify-content: center;
-    
+    margin: 0 auto;
+    min-height: 600px;
 }
 
-.formcontainer .inputfields{
-    display: flex;
+
+.contactsection .title h2{
+    color:black;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.contactsection .websiteshape{
+  min-width: 70%;
+}
+
+.contactsection .websiteshape .topbar{
+  height: 30px;
+  background-color:#b3ccfc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contactsection .websiteshape .topbar i{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.contactsection .websiteshape .bottombar{
+  height:30px;
+  background-color:#b3ccfc;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+
+.contactsection .websiteshape .contactform{
     flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    background-color:#e6f7fe;
-    width: 700px;
-    height: 600px;
+    justify-content: space-between;
+    padding-right: 10px;
+    max-height: 600px;
+    overflow:scroll;
+    border: 3px solid black;
+    background-color: white;
 }
 
-.formcontainer .inputfields .formfield{
-    margin-bottom: 30px;
+.contactsection .websiteshape .contactform .inputfields .formfield{
+    margin: 30px auto;
 }
 
-.formcontainer .inputfields .formfield textarea{
-    height: 200px;
-    width: 500px;
-    border-radius: 5px;
-}
-
-.formcontainer .inputfields .formfield input{
-    width: 500px;
-    height: 30px;
-    border-radius: 3px;
-}
-
-/*accordion section*/
-
-.accordionTitle {
-  cursor: pointer;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.accordionTitle + .accordionContent {
-  display: none;
-}
-
-.accordionTitle.is-open + .accordionContent {
-  display: block;
-}
