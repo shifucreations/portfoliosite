@@ -183,7 +183,7 @@ a:hover {
 
 .meerover .kwaliteitencontainer .topbar{
   height: 30px;
-  background-color:#b3ccfc;
+  background-color:#7ba4fc;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-top: 3px solid black;
@@ -205,7 +205,7 @@ a:hover {
 
 .meerover .kwaliteitencontainer .bottombar{
   height:30px;
-  background-color:#b3ccfc;
+  background-color:#7ba4fc;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom: 3px solid black;
@@ -231,7 +231,7 @@ a:hover {
 }
 
 .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit h2{
-    color:cadetblue;
+    color:#20bad1;
     padding-bottom: 4px;
     padding-left: 15px;
     font-family: 'Urbanist', Arial, Helvetica, sans-serif;
@@ -249,7 +249,7 @@ a:hover {
 .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit i{
     font-size: 27px;
     display: inline;
-    color:cadetblue;
+    color:#20bad1;
 }
 
 
