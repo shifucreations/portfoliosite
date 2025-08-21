@@ -183,7 +183,7 @@ a:hover {
 
 .meerover .kwaliteitencontainer .topbar{
   height: 30px;
-  background-color:#7ba4fc;
+  background-color:#cfdcfc;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-top: 3px solid black;
@@ -199,13 +199,13 @@ a:hover {
 }
 
 .meerover .kwaliteitencontainer .topbar i{
-  color: white;
+  color: black;
   font-size: 2.5rem;
 }
 
 .meerover .kwaliteitencontainer .bottombar{
   height:30px;
-  background-color:#7ba4fc;
+  background-color:#cfdcfc;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom: 3px solid black;
