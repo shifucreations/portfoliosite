@@ -159,9 +159,8 @@ a:hover {
   height: 180px;
   width: 330px;
   padding: 60px 10px;
-  background-image: url(../resources/images/download\ \(8\).jpeg);
+  background-image: url(../resources/images/miniclouds.png);
   background-attachment: fixed;
-  background-size: contain;
   border: 3px solid black;
 }
 
