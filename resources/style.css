@@ -133,6 +133,7 @@ a:hover {
 
 .wallsection .window img{
   border: 7px solid #2d4c9c;
+  border-radius: 5px;
   height: 400px;
   width: auto;
   background-image: url(../resources/images/download\ \(8\).jpeg);

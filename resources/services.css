@@ -115,7 +115,9 @@ a:hover {
 
 .herosection{
   min-height: 750px;
-  background-color: #e6f7fe;
+  background-image: url(../resources/images/brick\ wall\ tryout.png);
+  background-size: contain;
+  background-repeat: repeat;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -127,7 +129,6 @@ a:hover {
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
-  min-height: 600px;
   min-width: 60%;
   justify-content: center;
   align-content: center;
@@ -136,12 +137,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 1440px){
-  .herosection #computerscreen{
-    min-height: 550px;
-  }
-  .herosection #computerscreen #imagebox{
-    margin-left: 20px;
-  }
   .herosection{
     min-height: 700px;
   }
@@ -172,20 +167,13 @@ a:hover {
 }
 
 
-.herosection #computerscreen #imagebox{
-  height: 350px;
-  width: 300px;
-  border-radius: 20px;
+.herosection #computerscreen #imagebox img{
+  height: 500px;
+  width: auto;
   background-image: url(../resources/images/download\ \(8\).jpeg);
   background-size: contain;
+  background-repeat: repeat;
   background-attachment: fixed;
-  align-content: flex-end;
-}
-
-.herosection #computerscreen #imagebox img{
-  height: 250px;
-  width: 150px;
-  margin-left: 25px;
 }
 
 #stand{
