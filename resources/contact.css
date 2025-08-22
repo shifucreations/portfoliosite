@@ -148,6 +148,7 @@ a:hover {
 
 .form-label {
   margin-bottom: 0.5rem;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
 }
 
 .form-input,
@@ -160,6 +161,7 @@ a:hover {
   border-radius: 0.375rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
 }
 
 .form-input::placeholder,
@@ -180,8 +182,121 @@ a:hover {
 .form-submit {
   width: 100%;
   margin-top: 1.2rem;
-  background-color: #3124ca;
+  background-color:#7ba4fc;
   color: #fff;
   padding: 13px 5px;
   border-radius: 0.375rem;
 }
+
+/*Veelgestelde vragen*/
+
+.faqsectie{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    background-color:#e6f7fe;
+}
+
+
+.faqsectie .textcolumn{
+    max-width: 500px;
+    text-align: left;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+.faqsectie .textcolumn h2{
+    color:black;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.faqsectie .faqcolumn{
+  max-width: 900px;
+}
+
+.faqsectie .faqcolumn .topbar{
+  height: 30px;
+  background-color:#b3ccfc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.faqsectie .faqcolumn .topbar i{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.faqsectie .faqcolumn .bottombar{
+  height:30px;
+  background-color:#b3ccfc;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+
+.faqsectie .faqcolumn .vragen{
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+    max-height: 600px;
+    overflow:scroll;
+    border: 3px solid black;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1440px){
+  .faqsectie .faqcolumn .vragen{
+    max-height: 450px;
+  }
+}
+
+.faqsectie .faqcolumn .vragen .vraag{
+    margin: 40px 5px;
+    text-align: left;
+    padding: 0px 60px;
+    display: flex;
+}
+
+.faqsectie .faqcolumn .vragen .vraag h2{
+    color:cadetblue;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.faqsectie .faqcolumn .vragen .vraag p{
+    padding-left:15px;
+    line-height: 1.7rem;
+    color:rgb(77, 77, 77);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.faqsectie .faqcolumn .vragen .vraag i{
+    font-size: 27px;
+    display: inline;
+    color:cadetblue;
+}
+

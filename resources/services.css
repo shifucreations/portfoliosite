@@ -438,12 +438,13 @@ a:hover {
 
 .hoetewerk .row .stepcolumn h1{
   font-size: 5rem;
-  color:#20bad1;
+  color:#7ba4fc;
   font-family: 'Londrina Shadow';
 }
 
 .hoetewerk .row .stepcolumn h2{
   padding-left: 30px;
+  color:#20bad1
 }
 
 .hoetewerk .row .stepcolumn p{
