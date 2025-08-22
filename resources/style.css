@@ -128,12 +128,12 @@ a:hover {
 .wallsection .frame img{
   height: 200px;
   width: auto;
-  margin-top: -90px;
+  margin-top: -120px;
 }
 
 .wallsection .window img{
-  border: 6px solid #2d4c9c;
-  height: 300px;
+  border: 7px solid #2d4c9c;
+  height: 400px;
   width: auto;
   background-image: url(../resources/images/download\ \(8\).jpeg);
   background-attachment: fixed;
@@ -141,6 +141,14 @@ a:hover {
   background-repeat: repeat;
 }
 
+@media only screen and (max-width: 1440px){
+  .wallsection .window img{
+    height: 350px;
+  }
+  .wallsection .frame img{
+    margin-top: -180px;
+  }
+}
 
 /*herosection*/
 
@@ -162,6 +170,7 @@ a:hover {
   flex-wrap: wrap;
   min-height: 600px;
   min-width: 60%;
+  margin-top: -150px;
   justify-content: center;
   align-content: center;
   background-color: #cfdcfc;
@@ -171,7 +180,6 @@ a:hover {
 @media only screen and (max-width: 1440px){
   .herosection #computerscreen{
     min-height: 500px;
-    margin-top: -70px;
   }
   .herosection #computerscreen #imagebox{
     margin-left: 20px;
