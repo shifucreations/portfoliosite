@@ -129,6 +129,7 @@ a:hover {
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
+  min-height: 600px;
   min-width: 60%;
   justify-content: center;
   align-content: center;
@@ -411,7 +412,7 @@ a:hover {
 
 /*Zo ga ik te werk*/
 
-.hoetewerk{
+.faqsectie{
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
@@ -424,14 +425,14 @@ a:hover {
 }
 
 
-.hoetewerk .textcolumn{
+.faqsectie .textcolumn{
     max-width: 500px;
     text-align: left;
     padding-bottom: 30px;
     margin-right: 20px;
 }
 
-.hoetewerk .textcolumn h2{
+.faqsectie .textcolumn h2{
     color:black;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -439,11 +440,11 @@ a:hover {
     font-size: 2rem;
 }
 
-.hoetewerk .stappencolumn{
+.faqsectie .faqcolumn{
   max-width: 900px;
 }
 
-.hoetewerk .stappencolumn .topbar{
+.faqsectie .faqcolumn .topbar{
   height: 30px;
   background-color:#b3ccfc;
   border-top-left-radius: 20px;
@@ -460,12 +461,12 @@ a:hover {
   padding-right: 10px;
 }
 
-.hoetewerk .stappencolumn .topbar i{
+.faqsectie .faqcolumn .topbar i{
   color: white;
   font-size: 2.5rem;
 }
 
-.hoetewerk .stappencolumn .bottombar{
+.faqsectie .faqcolumn .bottombar{
   height:30px;
   background-color:#b3ccfc;
   border-bottom-left-radius: 20px;
@@ -475,7 +476,7 @@ a:hover {
   border-left: 3px solid black;
 }
 
-.hoetewerk .stappencolumn .stappen{
+.faqsectie .faqcolumn .vragen{
     flex-direction: column;
     justify-content: space-between;
     padding-right: 10px;
@@ -486,19 +487,19 @@ a:hover {
 }
 
 @media only screen and (max-width: 1440px){
-  .hoetewerk .stappencolumn .stappen{
+  .faqsectie .faqcolumn .vragen{
     max-height: 450px;
   }
 }
 
-.hoetewerk .stappencolumn .stappen .stap{
+.faqsectie .faqcolumn .vragen .vraag{
     margin: 40px 5px;
     text-align: left;
     padding: 0px 60px;
     display: flex;
 }
 
-.hoetewerk .stappencolumn .stappen .stap h2{
+.faqsectie .faqcolumn .vragen .vraag h2{
     color:cadetblue;
     padding-bottom: 4px;
     padding-left: 15px;
@@ -506,7 +507,7 @@ a:hover {
     font-size: 19px;
 }
 
-.hoetewerk .stappencolumn .stappen .stap p{
+.faqsectie .faqcolumn .vragen .vraag p{
     padding-left:15px;
     line-height: 1.7rem;
     color:rgb(77, 77, 77);
@@ -514,7 +515,7 @@ a:hover {
     font-size: 17px;
 }
 
-.hoetewerk .stappencolumn .stappen .stap i{
+.faqsectie .faqcolumn .vragen .vraag i{
     font-size: 27px;
     display: inline;
     color:cadetblue;
