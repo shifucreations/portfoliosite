@@ -139,7 +139,10 @@ a:hover {
 
 @media only screen and (max-width: 1440px){
   .herosection{
-    min-height: 700px;
+    min-height: 500px;
+  }
+  .herosection #computerscreen{
+    min-height: 400px;
   }
   .herosection #computerscreen #titlebox h1{
     padding-right: 30px;
@@ -409,8 +412,50 @@ a:hover {
   padding-left: 15px;
 }
 
+/*Hoe ga ik te werk*/
 
-/*Zo ga ik te werk*/
+.hoetewerk{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoetewerk .row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hoetewerk .row .stepcolumn{
+  display: flex;
+  max-width: 49%;
+  margin: 50px 30px;
+}
+
+.hoetewerk .row .stepcolumn h1{
+  font-size: 5rem;
+  color:#20bad1;
+  font-family: 'Londrina Shadow';
+}
+
+.hoetewerk .row .stepcolumn h2{
+  padding-left: 30px;
+}
+
+.hoetewerk .row .stepcolumn p{
+  font-size: 17px;
+  line-height: 1.7rem;
+  color:#494b63;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+
+/*FAQ*/
 
 .faqsectie{
     padding-top: 100px;
@@ -422,6 +467,7 @@ a:hover {
     align-items: center;
     align-content: center;
     margin: 0 auto;
+    background-color:#e6f7fe;
 }
 
 
