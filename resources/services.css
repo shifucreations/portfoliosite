@@ -427,12 +427,13 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0px 70px;
 }
 
 .hoetewerk .row .stepcolumn{
   display: flex;
-  max-width: 49%;
+  width: 60%;
   margin: 50px 30px;
 }
 
@@ -455,16 +456,64 @@ a:hover {
   padding-left: 30px;
 }
 
-.hoetewerk .row .iconcolumn img{
-  height: 200px;
+.hoetewerk .launchrow{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 70px;
+}
+
+.hoetewerk .launchrow .stepcolumn{
+  width: 60%;
+  display: flex;
+  margin: 50px 20px;
+}
+
+.hoetewerk .launchrow .stepcolumn h1{
+  font-size: 3.5rem;
+  color:#7ba4fc;
+  font-family: 'Londrina Shadow';
+}
+
+.hoetewerk .launchrow .stepcolumn p{
+  font-size: 17px;
+  line-height: 1.7rem;
+  color:#494b63;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.hoetewerk .launchrow .stepcolumn h2{
+  padding-left: 30px;
+  color:#20bad1
+}
+
+.hoetewerk .launchrow .iconcolumn img{
+  height: 180px;
   width: auto;
+  margin-top: -100px;
+}
+
+.imagesection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesection img{
+  height: 500px;
+  width: auto;
+  margin-left: -450px;
+  margin-top: -200px;
+  margin-bottom: -160px;
 }
 
 
 /*FAQ*/
 
 .faqsectie{
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
