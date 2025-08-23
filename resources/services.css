@@ -455,6 +455,11 @@ a:hover {
   padding-left: 30px;
 }
 
+.hoetewerk .row .iconcolumn img{
+  height: 200px;
+  width: auto;
+}
+
 
 /*FAQ*/
 
