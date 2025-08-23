@@ -428,13 +428,13 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 70px;
+  padding: 0px 80px;
 }
 
 .hoetewerk .row .stepcolumn{
   display: flex;
   width: 60%;
-  margin: 50px 30px;
+  margin: 50px 0px;
 }
 
 .hoetewerk .row .stepcolumn h1{
@@ -467,7 +467,7 @@ a:hover {
 .hoetewerk .launchrow .stepcolumn{
   width: 60%;
   display: flex;
-  margin: 50px 20px;
+  margin: 50px 0px;
 }
 
 .hoetewerk .launchrow .stepcolumn h1{
