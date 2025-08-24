@@ -176,7 +176,6 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  min-height: 450px;
   align-content: center;
   padding-bottom: 100px;
   align-items: center;
@@ -229,17 +228,7 @@ a:hover {
 
 /*logos*/
 
-.logotitle h1{
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #95bbbb;
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
-
 .logos{
-  min-height: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -248,18 +237,31 @@ a:hover {
 }
 
 .logos img{
-  height: 300px;
-  width: 300px;
-  margin: 0px 50px;
-  transition: 500ms ease-out 200ms;
+  height: 350px;
+  width: auto;
+  margin: 0px 20px;
 }
 
 
-.logos img:hover{
-  transform: scale(1.1);
+/*grafisch design*/
+ .grafischdesign{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .grafischdesign img{
+  height: 400px;
+  width: auto;
+  margin: 60px;
+ }
+
+@media only screen and (max-width: 1440px){
+  .grafischdesign img{
+    margin: 20px;
+  }
 }
-
-
 
 /*review section*/
 
@@ -325,8 +327,14 @@ label{
 
 .tabcontent{
   display: none;
-  padding: 50px 0px;
+  padding: 100px 0px;
   text-align: center;
+}
+
+.tabcontent h1{
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+  color:#7ba4fc;
 }
 
 input[type="radio"]:checked+label{
