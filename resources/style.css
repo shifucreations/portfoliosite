@@ -512,7 +512,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  min-height: 450px;
+  min-height: 400px;
   align-content: center;
   padding-bottom: 130px;
   background-color:#cddeff;
@@ -523,19 +523,20 @@ a:hover {
   font-size: 2.5rem;
   font-weight: 700;
   color:black;
-  padding-top: 150px;
+  padding-top: 100px;
   background-color:#cddeff;
 }
 
 .projecten .previewimage img{
-  height: 300px;
-  width: 500px;
+  height: 250px;
+  width: auto;
+  margin-right: 40px;
 }
 
 @media only screen and (max-width: 1440px){
   .projecten .previewimage img{
     height: 230px;
-    width: 400px;
+    width: auto;
   }
   .projecten{
     min-height: 400px;
