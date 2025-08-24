@@ -212,14 +212,14 @@ a:hover {
 
 .websites img{
   height: 300px;
-  width: 500px;
+  width: auto;
 }
 
 
 @media only screen and (max-width: 1440px){
   .websites img{
     height: 230px;
-    width: 400px;
+    width: auto;
   }
   .websites .content{
     width: 350px;
