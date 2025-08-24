@@ -327,7 +327,7 @@ a:hover {
 
 /*Breng je ideeen tot leven*/
 .ideeen{
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  background-color: #e6f7fe;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -542,14 +542,14 @@ a:hover {
 .reviewtitle{
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  background-color: #cddeff;
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
 
 .reviews{
-    background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+    background-color: #cddeff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

@@ -134,7 +134,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background-color: #cddeff;
 }
 
@@ -170,6 +170,20 @@ a:hover {
   padding-bottom: 50px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+
+.contact-section .formsection .smokeimage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section .formsection .smokeimage img{
+  height: 350px;
+  width: auto;
+  position: absolute;
+  margin-top: 400px;
 }
 
 .form-group-container {
@@ -228,7 +242,7 @@ a:hover {
 /*Veelgestelde vragen*/
 
 .faqsectie{
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
