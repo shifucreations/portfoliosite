@@ -263,6 +263,21 @@ a:hover {
   }
 }
 
+/*visitekaartjes*/
+
+.kaartje{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.kaartje img{
+  height: 300px;
+  width: auto;
+  margin: 20px 20px;
+}
+
 /*review section*/
 
 .reviewtitle{
