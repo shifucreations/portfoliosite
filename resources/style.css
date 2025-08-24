@@ -559,14 +559,20 @@ a:hover {
 }
 
 .reviews .reviewbox{
-     text-align: center;
+     text-align: left;
      padding: 50px;
      background-color: white;
-     max-height: 250px;
+     max-height: 300px;
      max-width: 400px;
      margin: 0px 40px;
      border-radius: 20px;
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reviews .reviewbox img{
+  height: 65px;
+  width: auto;
+  padding-bottom: 5px;
 }
 
 
