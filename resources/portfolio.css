@@ -315,7 +315,7 @@ input[type="radio"]{
 }
 
 label{
-  padding: 15px 40px;
+  padding: 20px 45px;
   margin: 0px 10px;
   background-color:#e6f7fe;
   border: 3px solid black;
@@ -323,6 +323,8 @@ label{
   cursor: pointer;
   transition: .4s;
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 19px;
 }
 
 .tabcontent{
@@ -338,7 +340,8 @@ label{
 }
 
 input[type="radio"]:checked+label{
-  background-color:#b3ccfc
+  background-color:#b3ccfc;
+  color: white;
 }
 
 #tab1:checked~#content1,
