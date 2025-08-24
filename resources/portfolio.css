@@ -214,12 +214,8 @@ a:hover {
 .websites img{
   height: 300px;
   width: 500px;
-  transition: 500ms ease-out 200ms;
 }
 
-.websites img:hover{
-  transform: scale(1.1);
-}
 
 @media only screen and (max-width: 1440px){
   .websites img{
@@ -303,3 +299,43 @@ a:hover {
   padding-bottom: 5px;
 }
 
+
+/*Tabs section*/
+
+section{
+  min-height: 800px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+label{
+  padding: 15px 40px;
+  margin: 0px 10px;
+  background-color:#e6f7fe;
+  border: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+.tabcontent{
+  display: none;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+input[type="radio"]:checked+label{
+  background-color:#b3ccfc
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4{
+  display: block;
+}
