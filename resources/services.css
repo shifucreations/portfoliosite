@@ -184,6 +184,7 @@ a:hover {
   display:flex;
   align-content: flex-start;
   justify-content: center;
+  background-color:#e6f7fe;
 }
 
 #stand img{
@@ -199,6 +200,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
+  background-color:#e6f7fe;
 }
 
 .keyboardsection .keyboard{
@@ -282,9 +284,12 @@ a:hover {
 
 .webtitle h1{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  color:#7ba4fc;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color:black;
+  background-color:#d6e1fc;
 }
 
 .webservices{
@@ -295,6 +300,7 @@ a:hover {
     align-items: center;
     align-content: center;
     padding-bottom: 100px;
+    background-color:#d6e1fc;
 }
 
 .webservices .iconbox{
@@ -320,7 +326,7 @@ a:hover {
 }
 
 .webservices #completewebsite:hover{
-  background-color: #dee6fa;
+  background-color: #e6f7fe;
 }
 
 .webservices #onepager:hover{
@@ -328,7 +334,7 @@ a:hover {
 }
 
 .webservices #onderhoud:hover{
-  background-color: #c8e0e0;
+  background-color: #e6f7fe;
 }
 
 .webservices .iconbox i{
@@ -366,15 +372,16 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   min-height: 600px;
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  background-color:#e6f7fe;
   justify-content: space-around;
   align-content: center;
   align-items: center;
+  padding: 70px;
 }
 
 .overigeservices .illustratie h1{
-  color:#e6f7fe;
-  font-size: 2.5rem;
+  color:#20bad1;
+  font-size: 2rem;
 }
 
 .overigeservices .servicescolumn{
@@ -417,23 +424,25 @@ a:hover {
 .hoetewerk{
   display: flex;
   flex-wrap: wrap;
+  padding-top: 100px;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
+  background-color: #cddeff;
 }
 
 .hoetewerk .row{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0px 80px;
 }
 
 .hoetewerk .row .stepcolumn{
   display: flex;
-  width: 60%;
+  width: 50%;
   margin: 50px 0px;
 }
 
@@ -445,7 +454,7 @@ a:hover {
 
 .hoetewerk .row .stepcolumn h2{
   padding-left: 30px;
-  color:#20bad1
+  color:black;
 }
 
 .hoetewerk .row .stepcolumn p{
@@ -456,11 +465,17 @@ a:hover {
   padding-left: 30px;
 }
 
+.hoetewerk .row .iconcolumn img{
+  height: 200px;
+  width: auto;
+}
+
+
 .hoetewerk .launchrow{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0px 70px;
 }
 
@@ -486,11 +501,11 @@ a:hover {
 
 .hoetewerk .launchrow .stepcolumn h2{
   padding-left: 30px;
-  color:#20bad1
+  color:rgb(60, 60, 60);
 }
 
 .hoetewerk .launchrow .iconcolumn img{
-  height: 180px;
+  height: 200px;
   width: auto;
   margin-top: -100px;
 }
@@ -499,6 +514,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #cddeff;
 }
 
 .imagesection img{
@@ -534,7 +550,7 @@ a:hover {
 }
 
 .faqsectie .textcolumn h2{
-    color:black;
+    color:rgb(60, 60, 60);
     padding-bottom: 15px;
     padding-left: 10px;
     font-family: 'Urbanist', Arial, Helvetica, sans-serif;

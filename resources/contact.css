@@ -118,12 +118,26 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .herosection img{
-  height: 200px;
+  height: 150px;
   width: auto;
+}
+
+.herosection h1{
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.herosection p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 30px;
 }
 
 /*Contact form section*/
@@ -135,6 +149,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding-bottom: 150px;
+  padding-top: 50px;
   background-color: #cddeff;
 }
 
@@ -171,19 +186,6 @@ a:hover {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   
-}
-
-.contact-section .formsection .smokeimage{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-section .formsection .smokeimage img{
-  height: 350px;
-  width: auto;
-  position: absolute;
-  margin-top: 400px;
 }
 
 .form-group-container {

@@ -283,14 +283,14 @@ a:hover {
 .reviewtitle{
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  background-color:#cfdcfc;
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
 
 .reviews{
-  background-image: linear-gradient(to right, #b3ccfc , #e6f7fe);
+  background-color:#cfdcfc;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

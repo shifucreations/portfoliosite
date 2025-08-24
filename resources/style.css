@@ -222,6 +222,7 @@ a:hover {
   display:flex;
   align-content: flex-start;
   justify-content: center;
+  background-color:#e6f7fe;
 }
 
 #stand img{
@@ -237,6 +238,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
+  background-color: #e6f7fe;
 }
 
 .keyboardsection .keyboard{
@@ -327,12 +329,12 @@ a:hover {
 
 /*Breng je ideeen tot leven*/
 .ideeen{
-  background-color: #e6f7fe;
+  background-color:#e6f7fe;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 850px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 
@@ -428,6 +430,8 @@ a:hover {
     align-items: center;
     align-content: center;
     padding-bottom: 100px;
+    padding-top: 50px;
+    background-color:#cddeff;
 }
 
 .iconsection .iconbox{
@@ -511,14 +515,16 @@ a:hover {
   min-height: 450px;
   align-content: center;
   padding-bottom: 130px;
+  background-color:#cddeff;
 }
 
 .projectentitle h1{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  color:#20bad1;
+  color:black;
   padding-top: 150px;
+  background-color:#cddeff;
 }
 
 .projecten .previewimage img{
@@ -542,20 +548,20 @@ a:hover {
 .reviewtitle{
   display: flex;
   justify-content: center;
-  background-color: #cddeff;
+  background-color:#e6f7fe;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 
 .reviews{
-    background-color: #cddeff;
+    background-color:#e6f7fe;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     min-height: 350px;
     align-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 110px;
 }
 
 .reviews .reviewbox{
