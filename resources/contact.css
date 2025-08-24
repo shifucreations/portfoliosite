@@ -111,28 +111,65 @@ a:hover {
   color: black;
 }
 
+/*herosection*/
+
+.herosection{
+  background-color: #cddeff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.herosection img{
+  height: 200px;
+  width: auto;
+}
+
 /*Contact form section*/
 
 .contact-section {
   width: 100%;
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  background-color: #cddeff;
 }
 
-.contact-intro > * + * {
-  margin-top: 1rem;
+.contact-section .iconsection {
+  margin-right: 100px;
 }
 
-.contact-title {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 700;
+.contact-section .iconsection .iconbox{
+  text-align: center;
+  margin: 50px 0px;
 }
 
-.contact-description {
-  color: rgb(107 114 128);
+.contact-section .iconsection .iconbox i{
+  background-color:#e6f7fe;
+  border-radius: 50%;
+  padding: 20px 20px;
+  box-shadow: rgb(0, 0, 0) 3px 3px;
+  font-size: 2rem;
+}
+
+.contact-section .iconsection .iconbox h2{
+  padding-top: 40px;
+}
+
+
+.contact-section .formsection{
+  background-color: white;
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .form-group-container {
@@ -149,17 +186,17 @@ a:hover {
 .form-label {
   margin-bottom: 0.5rem;
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 19px;
 }
 
 .form-input,
 .form-textarea {
-  padding: 0.5rem;
   border: 1px solid #e5e7eb;
   display: flex;
   height: 2.5rem;
-  width: 100%;
+  width: 600px;
   border-radius: 0.375rem;
-  font-size: 0.875rem;
+  font-size: 18px;
   line-height: 1.25rem;
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
 }
