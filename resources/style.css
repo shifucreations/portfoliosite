@@ -530,7 +530,7 @@ a:hover {
 }
 
 .iconsection #creatief:hover{
-  background-color: #dee6fa;
+  background-color: #e6f7fe;
 }
 
 .iconsection #functioneel:hover{
@@ -538,11 +538,11 @@ a:hover {
 }
 
 .iconsection #support:hover{
-  background-color: #c8e0e0;
+  background-color: #e6f7fe;
 }
 
 .iconsection .iconbox i{
-  font-size: 3rem;
+  font-size: 2.5rem;
   color:#20bad1
 }
 

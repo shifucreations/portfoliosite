@@ -237,7 +237,7 @@ a:hover {
 }
 
 .logos img{
-  height: 350px;
+  height: 300px;
   width: auto;
   margin: 0px 20px;
 }
@@ -252,7 +252,7 @@ a:hover {
  }
 
  .grafischdesign img{
-  height: 400px;
+  height: 350px;
   width: auto;
   margin: 60px;
  }
@@ -260,6 +260,7 @@ a:hover {
 @media only screen and (max-width: 1440px){
   .grafischdesign img{
     margin: 20px;
+    height: 300px;
   }
 }
 
