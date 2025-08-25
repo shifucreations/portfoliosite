@@ -335,12 +335,15 @@ a:hover {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color:#cddeff;
 }
 
-.accordionsection .illustrationcol h1{
-  font-size: 2rem;
+.accordionsection .illustrationcol img{
+  height: 450px;
+  width: auto;
+  margin-right: 50px;
 }
 
 .accordionsection .accordioncol #accordion{
@@ -494,81 +497,6 @@ a:hover {
 }
 
 
-/*columns with icons*/
-.iconsection{
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 700px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    background-color:#cddeff;
-}
-
-.iconsection .iconbox{
-    background-color: white;
-    border-radius: 20px;
-    min-width: 450px;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 30px;
-    align-content: center;
-    align-items: center;
-    box-shadow: 0 4px 4px 0 rgba(134, 134, 134, 0.2), 0 5px 14px 0 rgba(138, 138, 138, 0.19);
-    transition: background-color 200ms ease-out 100ms;
-}
-
-.iconsection .iconbox h2{
-  padding: 20px 0px;
-  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-
-.iconsection #creatief:hover{
-  background-color: #e6f7fe;
-}
-
-.iconsection #functioneel:hover{
-  background-color: #e6f7fe;
-}
-
-.iconsection #support:hover{
-  background-color: #e6f7fe;
-}
-
-.iconsection .iconbox i{
-  font-size: 2.5rem;
-  color:#20bad1
-}
-
-.iconsection .iconbox p{
-  max-width: 300px;
-  color: rgb(73, 73, 73);
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.7rem;
-}
-
-@media only screen and (max-width: 1440px){
-  .iconsection .iconbox{
-    min-width: 350px;
-    min-height: 400px;
-    margin: 15px;
-  }
-
-  .iconsection .iconbox p{
-    max-width: 270px;
-  }
-  .iconsection{
-    justify-content: center;
-    min-height: 600px;
-  }
-}
 
 /*recente projecten*/
 .projecten{
