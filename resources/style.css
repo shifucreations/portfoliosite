@@ -244,7 +244,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
 }
@@ -254,12 +254,12 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 450px;
-  margin-right: 50px;
+  max-width: 400px;
   border: 2px solid black;
   border-radius: 20px;
   padding-top: 20px;
-  box-shadow: rgb(0, 0, 0) 2px 2px;
+  box-shadow: rgb(0, 0, 0) 3px 3px;
+  background-color: whitesmoke;
 }
 
 .servicessection .servicesrow .servicebox h1{
@@ -287,6 +287,24 @@ a:hover {
   width: auto;
   padding: 20px 10px;
 }
+
+.servicessection .servicesrow .servicebox .iconrow{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding-bottom: 15px;
+  width:100%;
+  background-color:#cddeff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 15px;
+}
+
+.servicessection .servicesrow .servicebox i{
+  font-size: 1.5rem;
+  color: black;
+}
+
 
 /*accordion section*/
 
