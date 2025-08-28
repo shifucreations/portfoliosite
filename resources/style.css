@@ -327,6 +327,58 @@ a:hover {
     }
 }
 
+/*services section*/
+
+.servicessection{
+  background-color: #e6f7fe;
+  width: 100%;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+.servicessection .servicesrow{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.servicessection .servicesrow .servicebox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+}
+
+.servicessection .servicesrow .servicebox h1{
+ padding-bottom: 15px;
+}
+
+.servicessection .servicesrow .servicebox p{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.7rem;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.servicessection .servicesrow .servicebox #webdesign{
+  height: 220px;
+  width: auto;
+  padding: 20px 10px;
+  margin-top: -18px;
+}
+
+.servicessection .servicesrow .servicebox #grafischdesign{
+  height: 200px;
+  width: auto;
+  padding: 20px 10px;
+}
+
 /*accordion section*/
 
 .accordionsection{
