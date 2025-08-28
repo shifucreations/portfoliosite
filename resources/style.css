@@ -230,102 +230,6 @@ a:hover {
     height: auto;
 }
 
-/*keyboard*/
-
-.keyboardsection{
-  min-height: 650px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
-  background-color: #e6f7fe;
-  padding-bottom: 30px;
-}
-
-.keyboardsection .keyboard{
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  min-height: 550px;
-  min-width: 1180px;
-  justify-content: center;
-  align-content: center;
-  background-color: #d8d8d8;
-  box-shadow: rgba(14, 14, 14, 0.4) 0px 2px 4px, rgba(146, 146, 146, 0.3) 0px 7px 13px -10px, rgba(134, 134, 134, 0.2) 5px -10px 0px inset;
-}
-
-.keyboardsection .keyboard .keyboardtitle h1{
-  text-align: center;
-  color:rgb(46, 46, 46);
-  font-size: 2rem;
-  font-family: monospace;
-  padding-bottom: 6px;
-}
-
-.keyboardsection .keyboard .upperrow{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-}
-
-.keyboardsection .keyboard .bottomrow{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-}
-
-.keyboardsection .keyboard .item{
-    width: 300px;
-    height: 150px;
-    margin: 20px;
-    background-color: #FCFCFD;
-    border-radius: 4px;
-    border-width: 0;
-    box-shadow: rgba(14, 14, 14, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -7px, rgba(0, 0, 0, 0.2) 3px -7px 0px inset;
-    box-sizing: border-box;
-    color: #36395A;
-    padding-left: 16px;
-    padding-right: 16px;
-    text-align: center;
-    padding-top: 6px;
-    transition: 150ms ease-out 50ms;
-}
-
-.keyboardsection .keyboard .item:hover{
-    margin-bottom: 10px;
-}
-
-.keyboardsection .keyboard h2{
-    font-size: 17px;
-    padding-top: 10px;
-    font-family: monospace;
-}
-
-.keyboardsection .keyboard p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.7rem;
-    padding: 5px 3px;
-    font-family: monospace;
-}
-
-.keyboardsection .keyboard i{
-    font-size: 22px;
-}
-
-@media only screen and (max-width: 1440px){
-    .keyboardsection .keyboard{
-        min-width: 1100px;
-    }
-    #stand img{
-        width: 700px;
-        height: auto;
-    }
-}
 
 /*services section*/
 
@@ -351,16 +255,21 @@ a:hover {
   align-items: center;
   justify-content: center;
   max-width: 450px;
+  margin-right: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: rgb(0, 0, 0) 2px 2px;
 }
 
 .servicessection .servicesrow .servicebox h1{
- padding-bottom: 15px;
+ padding-bottom: 20px;
 }
 
 .servicessection .servicesrow .servicebox p{
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   line-height: 1.7rem;
   font-weight: 500;
   font-size: 17px;
