@@ -139,10 +139,10 @@ a:hover {
 
 @media only screen and (max-width: 1440px){
   .herosection{
-    min-height: 500px;
+    min-height: 600px;
   }
   .herosection #computerscreen{
-    min-height: 400px;
+    min-height: 450px;
   }
   .herosection #computerscreen #titlebox h1{
     padding-right: 30px;
@@ -152,6 +152,7 @@ a:hover {
 
 .herosection #computerscreen #titlebox{
   align-content: center;
+  width: 500px;
 }
 
 .herosection #computerscreen #titlebox h1{
@@ -165,7 +166,8 @@ a:hover {
   max-width: 650px;
   font-weight: 500;
   padding-top: 40px;
-  padding-left: 30px;
+  padding-left: 40px;
+  padding-right: 30px;
   font-size: 18px;
   line-height: 1.7rem;
 }
@@ -174,10 +176,8 @@ a:hover {
 .herosection #computerscreen #imagebox img{
   height: 500px;
   width: auto;
-  background-image: url(../resources/images/download\ \(8\).jpeg);
-  background-size: contain;
-  background-repeat: repeat;
-  background-attachment: fixed;
+  margin-left: -70px;
+  margin-top: -70px;
 }
 
 #stand{
