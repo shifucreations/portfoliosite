@@ -380,8 +380,15 @@ a:hover {
 }
 
 .overigeservices .illustratie h1{
-  color:#20bad1;
+  color: black;
   font-size: 2rem;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.overigeservices .illustratie img{
+  height: 500px;
+  width: auto;
 }
 
 .overigeservices .servicescolumn{
