@@ -135,7 +135,7 @@ a:hover {
   padding-top: 40px;
   line-height: 1.7rem;
   font-weight: 500px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 
@@ -162,24 +162,28 @@ a:hover {
     max-width: 500px;
     text-align: left;
     padding-bottom: 30px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .meerover .hoebegonnen h2{
-    color:cadetblue;
-    padding-bottom: 7px;
+    color:#2a4e9a;
+    padding-bottom: 20px;
     padding-left: 10px;
     font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 .meerover .hoebegonnen p{
     padding: 0px 10px;
     line-height: 1.7rem;
     color:rgb(77, 77, 77);
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
 }
 
+.meerover .kwaliteitencontainer{
+  margin-left: 50px;
+}
 
 .meerover .kwaliteitencontainer .topbar{
   height: 30px;
