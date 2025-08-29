@@ -236,8 +236,8 @@ a:hover {
 .servicessection{
   background-color: #e6f7fe;
   width: 100%;
-  padding-bottom: 150px;
-  padding-top: 150px;
+  padding-bottom: 170px;
+  padding-top: 60px;
 }
 
 .servicessection .servicesrow{
@@ -257,13 +257,8 @@ a:hover {
   max-width: 420px;
   border: 2px solid black;
   border-radius: 20px;
-  padding-top: 20px;
   box-shadow: rgb(0, 0, 0) 3px 3px;
   background-color: whitesmoke;
-}
-
-.servicessection .servicesrow .servicebox h1{
- padding-bottom: 20px;
 }
 
 .servicessection .servicesrow .servicebox p{
@@ -290,15 +285,27 @@ a:hover {
 
 .servicessection .servicesrow .servicebox .uppericonrow{
   display: flex;
-  justify-content:left;
+  justify-content:space-between;
   align-items: center;
-  padding-bottom: 15px;
-  padding-left: 20px;
+  padding-bottom: 17px;
   width:100%;
   background-color:#cddeff;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  padding-top: 15px;
+  padding-top: 17px;
+}
+
+.servicessection .servicesrow .servicebox .uppericonrow i{
+  color:#20bad1;
+  font-size: 1.7rem;
+  margin-left: 30px;
+}
+
+.servicessection .servicesrow .servicebox .uppericonrow h1{
+  font-size: 20px;
+  text-align: center;
+  color: #2a4e9a;
+  margin-right: 30px;
 }
 
 .servicessection .servicesrow .servicebox .iconrow{
