@@ -113,7 +113,9 @@ a:hover {
 
 /*header and intro*/
 .over{
-  background-color:#cfdcfc;
+  background-image: url(../resources/images/brick\ wall\ tryout.png);
+  background-size: contain;
+  background-repeat: repeat;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -148,13 +150,14 @@ a:hover {
 /*hoe begonnen*/
 
 .meerover{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
     margin: 0 auto;
+    background-color:#e6f7fe;
 }
 
 
@@ -187,7 +190,7 @@ a:hover {
 
 .meerover .kwaliteitencontainer .topbar{
   height: 30px;
-  background-color:#cfdcfc;
+  background-color:#7ba4fc;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-top: 3px solid black;
@@ -203,13 +206,13 @@ a:hover {
 }
 
 .meerover .kwaliteitencontainer .topbar i{
-  color: black;
+  color: white;
   font-size: 2.5rem;
 }
 
 .meerover .kwaliteitencontainer .bottombar{
   height:30px;
-  background-color:#cfdcfc;
+  background-color:#7ba4fc;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom: 3px solid black;
@@ -225,6 +228,7 @@ a:hover {
     height: 450px;
     overflow:scroll;
     border: 3px solid black;
+    background-color: whitesmoke;
 }
 
 .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit{
@@ -266,6 +270,7 @@ a:hover {
   align-content: center;
   align-items: center;
   flex-direction: column;
+  background-color:#cfdcfc;
 }
 
 .leesmeer h1{
