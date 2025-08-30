@@ -113,11 +113,20 @@ a:hover {
 
 /*header and intro*/
 .over{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-image: url(../resources/images/brick\ wall\ tryout.png);
   background-size: contain;
   background-repeat: repeat;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.over .portraitimg img{
+  height: 400px;
+  width: auto;
+  margin-right: 30px;
 }
 
 .over h1{
@@ -130,6 +139,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .over p{
