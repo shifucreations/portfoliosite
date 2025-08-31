@@ -131,6 +131,10 @@ a:hover {
   margin-top: -120px;
 }
 
+.wallsection .frame #imageframe{
+  height:192px;
+}
+
 .wallsection .window img{
   border: 7px solid #2d4c9c;
   border-radius: 5px;
