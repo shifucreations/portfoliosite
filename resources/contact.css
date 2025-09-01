@@ -353,4 +353,86 @@ a:hover {
     color:cadetblue;
 }
 
+/*footer section*/
 
+
+.footersection .contentrow{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ align-content: center;
+ justify-content: space-around;
+ background-color:#cddeff;
+ padding: 60px 0px;
+}
+
+
+.footersection .contentrow .contentbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footersection .contentrow .contentbox ul{
+  list-style-type: none;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+.footersection .contentrow .contentbox a{
+  text-decoration: none;
+  color:#323232;
+  font-weight: 500;
+  transition: color 130ms ease-out 100ms;
+}
+
+.footersection .contentrow .contentbox a:hover{
+  color: #20bad1;
+}
+
+
+.footersection .contentrow .contentbox i{
+  color: #20bad1;
+  padding-right: 10px;
+  font-size: 1.3rem;
+}
+
+.footersection .contentrow .contentbox .footercontact li{
+  padding-top: 10px;
+}
+
+.footersection .contentrow .contentbox .footermenu li{
+  padding-top: 5px;
+}
+
+.footersection .copyright{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#2a4e9a;
+  color: white;
+  padding: 15px 70px;
+}
+
+.footersection .copyright .madeby{
+  display: flex;
+}
+
+.footersection .copyright .madeby i{
+  padding-right: 10px;
+}
+
+.footersection .copyright a{
+  text-decoration: underline;
+  color:white;
+  font-weight: 500;
+  transition: color 130ms ease-out 100ms;
+}
+
+.footersection .copyright a:hover{
+  color:#cddeff;
+}
+
+.footersection .copyright p{
+  font-size: 16px;
+}
