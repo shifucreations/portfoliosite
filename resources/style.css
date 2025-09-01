@@ -587,7 +587,7 @@ a:hover {
  align-content: center;
  justify-content: space-around;
  background-color:#cddeff;
- padding: 70px 0px;
+ padding: 60px 0px;
 }
 
 .footersection .contentrow .contentbox{
@@ -597,6 +597,29 @@ a:hover {
   justify-content: center;
 }
 
+.footersection .contentrow .contentbox ul{
+  list-style-type: none;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+.footersection .contentrow .contentbox a{
+  text-decoration: none;
+}
+
+.footersection .contentrow .contentbox i{
+  color: #8b8bd8;
+  padding-right: 10px;
+  font-size: 1.3rem;
+}
+
+.footersection .contentrow .contentbox .footercontact li{
+  padding-top: 10px;
+}
+
+.footersection .contentrow .contentbox .footermenu li{
+  padding-top: 5px;
+}
+
 .footersection .copyright{
   display: flex;
   align-items: center;
@@ -604,5 +627,9 @@ a:hover {
   background-color:#2a4e9a;
   color: white;
   padding: 15px 0px;
+}
+
+.footersection .copyright p{
+  font-size: 17px;
 }
 
