@@ -604,10 +604,18 @@ a:hover {
 
 .footersection .contentrow .contentbox a{
   text-decoration: none;
+  color:#323232;
+  font-weight: 500;
+  transition: color 130ms ease-out 100ms;
 }
 
+.footersection .contentrow .contentbox a:hover{
+  color: #20bad1;
+}
+
+
 .footersection .contentrow .contentbox i{
-  color: #8b8bd8;
+  color: #20bad1;
   padding-right: 10px;
   font-size: 1.3rem;
 }
