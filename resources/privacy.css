@@ -35,6 +35,13 @@ button{
   padding: 15px 17px;
   box-shadow: rgb(0, 0, 0) 3px 3px;
   border: 2px solid black;
+  transition: all 250ms ease-out 100ms;
+}
+
+button:hover{
+  background-color: #cddeff;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 

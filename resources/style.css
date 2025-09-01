@@ -29,6 +29,13 @@ button{
   padding: 15px 17px;
   box-shadow: rgb(0, 0, 0) 3px 3px;
   border: 2px solid black;
+  transition: all 250ms ease-out 100ms;
+}
+
+button:hover{
+  background-color: #cddeff;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 
@@ -507,9 +514,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  min-height: 400px;
   align-content: center;
-  padding-bottom: 130px;
   background-color:#cddeff;
 }
 
@@ -518,7 +523,7 @@ a:hover {
   font-size: 2.5rem;
   font-weight: 700;
   color:black;
-  padding-top: 100px;
+  padding-top: 120px;
   background-color:#cddeff;
 }
 
@@ -526,6 +531,20 @@ a:hover {
   height: 230px;
   width: auto;
   margin-right: 40px;
+}
+
+.portfoliobutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#cddeff;
+  padding-bottom: 120px;
+  margin-top: -80px;
+}
+
+.portfoliobutton button{
+  padding: 23px 28px;
+  font-size: 19px;
 }
 
 @media only screen and (max-width: 1440px){
