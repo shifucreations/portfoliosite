@@ -5,7 +5,8 @@
 
 p{
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 h1{
@@ -19,6 +20,11 @@ h2{
   font-weight: 700;
   padding-bottom: 10px;
 }
+
+body{
+    background-color:#e6f7fe;
+}
+
 
 button{
   background-color:#e6f7fe;
@@ -110,3 +116,6 @@ header i{
 a:hover {
   color: black;
 }
+
+/*privacypolicy*/
+
