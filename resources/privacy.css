@@ -119,3 +119,15 @@ a:hover {
 
 /*privacypolicy*/
 
+.privacypolicy{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.privacypolicy p{
+    padding: 20px 0px;
+    line-height: 1.7rem;
+}
