@@ -279,6 +279,23 @@ a:hover {
   margin: 0px 20px;
 }
 
+/*visitekaartjes*/
+
+.kaartjessection{
+  background-color:#cddeff;
+  padding-top: 100px;
+}
+
+.kaartjessection .title h1{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #2a4e9a;
+  padding-bottom: 80px;
+}
+
+
+
 
 /*grafisch design*/
  .grafischdesign{
