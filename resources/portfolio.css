@@ -252,7 +252,20 @@ a:hover {
 
 /*logos*/
 
-.logos{
+.logosection{
+  padding-top: 100px;
+  background-color: #e6f7fe;
+}
+
+.logosection .title h1{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #2a4e9a;
+  padding-bottom: 80px;
+}
+
+.logosection .logos{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -260,7 +273,7 @@ a:hover {
   padding-bottom: 80px;
 }
 
-.logos img{
+.logosection .logos img{
   height: 300px;
   width: auto;
   margin: 0px 20px;
