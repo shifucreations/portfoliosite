@@ -53,11 +53,12 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding: 25px 0px;
 }
 
 header img{
-    height: 200px;
-    width: 200px;
+    height: 110px;
+    width: auto;
     padding-left: 90px;
     display: inline;
 }
@@ -76,7 +77,7 @@ header li{
   font-size: 14px;
   font-weight: 500;
   display: inline-block;
-  width: 300px;
+  width: 250px;
 }
 
 header i{
