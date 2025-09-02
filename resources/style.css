@@ -525,6 +525,7 @@ a:hover {
   font-weight: 700;
   color:black;
   padding-top: 120px;
+  padding-bottom: 80px;
   background-color:#cddeff;
 }
 
@@ -540,7 +541,7 @@ a:hover {
   justify-content: center;
   background-color:#cddeff;
   padding-bottom: 120px;
-  margin-top: -80px;
+  padding-top: 70px;
 }
 
 .portfoliobutton button{
@@ -552,10 +553,6 @@ a:hover {
   .projecten .previewimage img{
     height: 210px;
     width: auto;
-  }
-  .projecten{
-    min-height: 400px;
-    padding-bottom: 80px;
   }
 }
 
