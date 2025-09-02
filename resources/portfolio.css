@@ -143,7 +143,7 @@ a:hover {
 
 .portfoliohero .websitecolumn #topbar{
     height: 30px;
-    background-color:#2a4e9a;
+    background-color:#20bad1;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-left: 3px solid black;
@@ -153,7 +153,7 @@ a:hover {
 
 .portfoliohero .websitecolumn #bottombar{
   height: 30px;
-  background-color:#2a4e9a;
+  background-color:#20bad1;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-left: 3px solid black;
@@ -190,7 +190,7 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   align-items: center;
 }
 
@@ -255,6 +255,7 @@ a:hover {
 
 .logosection{
   padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #e6f7fe;
 }
 
@@ -263,7 +264,7 @@ a:hover {
   font-size: 2.8rem;
   font-weight: 600;
   color: #2a4e9a;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 
 .logosection .logos{
@@ -275,7 +276,7 @@ a:hover {
 }
 
 .logosection .logos img{
-  height: 300px;
+  height: 250px;
   width: auto;
   margin: 0px 20px;
 }
@@ -285,6 +286,7 @@ a:hover {
 .kaartjessection{
   background-color:#cddeff;
   padding-top: 100px;
+  padding-bottom: 130px;
 }
 
 .kaartjessection .title h1{
@@ -292,61 +294,75 @@ a:hover {
   font-size: 2.8rem;
   font-weight: 600;
   color: #2a4e9a;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 
 
-
-
-/*grafisch design*/
- .grafischdesign{
+.kaartjessection .visitekaartjes .kaartje{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.kaartjessection .visitekaartjes .kaartje img{
+  height: 250px;
+  width: auto;
+  margin: 20px 20px;
+}
+
+
+/*illustraties*/
+
+ .illustratiessection{
+  background-color:#e6f7fe;
+  padding-bottom: 130px;
+  padding-top: 100px;
  }
 
- .grafischdesign img{
+ .illustratiessection .title h1{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #2a4e9a;
+  padding-bottom: 70px;
+ }
+
+ .illustratiessection .illustraties{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .illustratiessection .illustraties img{
   height: 350px;
   width: auto;
   margin: 60px;
  }
 
 @media only screen and (max-width: 1440px){
-  .grafischdesign img{
+  .illustratiessection .illustraties img{
     margin: 20px;
     height: 300px;
   }
 }
 
-/*visitekaartjes*/
 
-.kaartje{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.kaartje img{
-  height: 300px;
-  width: auto;
-  margin: 20px 20px;
-}
 
 /*review section*/
 
 .reviewtitle{
   display: flex;
   justify-content: center;
-  background-color:#e6f7fe;
+  background-color:#cddeff;
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
 
 .reviews{
-  background-color:#e6f7fe;
+  background-color:#cddeff;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -371,7 +387,6 @@ a:hover {
   padding-bottom: 5px;
 }
 
-/*footer*/
 
 /*footer section*/
 
@@ -382,7 +397,7 @@ a:hover {
  align-items: center;
  align-content: center;
  justify-content: space-around;
- background-color:#cddeff;
+ background-color:#e6f7fe;
  padding: 60px 0px;
 }
 
