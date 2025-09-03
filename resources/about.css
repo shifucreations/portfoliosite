@@ -161,12 +161,29 @@ a:hover {
 @media only screen and (max-width: 480px){
   .over .portraitimg img{
     height: 300px;
+    margin-right: 0px;
   }
   .over{
     padding-top: 50px;
   }
   .over h1{
     font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+   .over .portraitimg img{
+    height: 300px;
+    margin-right: 0px;
+  }
+  .over{
+    padding-top: 60px;
+  }
+  .over p{
+    font-size: 21px;
+  }
+  .over #intro{
+    margin-left: 0px;
   }
 }
 
@@ -304,6 +321,44 @@ a:hover {
   }
   .meerover .kwaliteitencontainer .kwaliteiten{
     width: 100%;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+  .meerover{
+    padding-top: 80px;
+  }
+  .meerover .hoebegonnen h2{
+    text-align: center;
+  }
+  .meerover .hoebegonnen p{
+    font-size: 21px;
+  }
+  .meerover .hoebegonnen{
+    margin-right: 0px;
+    max-width: 80%;
+  }
+  .meerover .kwaliteitencontainer{
+    width: 90%;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .meerover .kwaliteitencontainer .kwaliteiten{
+    width: 100%;
+    padding-right: 0px;
+  }
+  .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit h2{
+    font-size: 21px;
+  }
+  .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit p{
+    font-size: 21px;
+  }
+  .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit i{
+    font-size: 30px;
+    display: inline;
+    color:#8b8bd8;
   }
 }
 
@@ -341,6 +396,16 @@ a:hover {
     font-size: 26px;
     padding-left: 23px;
     padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+  .leesmeer h1{
+    padding-left: 23px;
+    padding-right: 10px;
+  }
+  .leesmeer .calltoaction{
+    width: 80%;
   }
 }
 
