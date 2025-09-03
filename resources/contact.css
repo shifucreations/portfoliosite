@@ -309,6 +309,21 @@ a:hover {
   }
   .contact-section .iconsection{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+  .contact-section .iconsection .iconbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+  }
+  .form-submit{
+    font-size: 19px;
   }
 }
 
@@ -422,6 +437,27 @@ a:hover {
     font-size: 27px;
     display: inline;
     color:cadetblue;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .faqsectie .faqcolumn .vragen .vraag h2{
+    font-size: 21px;
+  }
+  .faqsectie .faqcolumn .vragen .vraag p{
+    font-size: 19px;
+  }
+  .faqsectie .faqcolumn .vragen .vraag i{
+    font-size: 30px;
+  }
+  .faqsectie .faqcolumn .topbar{
+    height: 35px;
+  }
+  .faqsectie .faqcolumn .bottombar{
+    height: 35px;
+  }
+  .faqsectie .faqcolumn .vragen{
+    max-height: 470px;
+  }
 }
 
 /*footer section*/
