@@ -158,9 +158,15 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 480px){
+  .over .portraitimg img{
+    height: 300px;
+  }
   .over{
-    max-height: 450px;
+    padding-top: 50px;
+  }
+  .over h1{
+    font-size: 3rem;
   }
 }
 
@@ -277,7 +283,29 @@ a:hover {
     color:#8b8bd8;
 }
 
-
+@media only screen and (max-width: 480px){
+  .meerover{
+    padding-top: 80px;
+  }
+  .meerover .hoebegonnen h2{
+    text-align: center;
+  }
+  .meerover .hoebegonnen p{
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .meerover .hoebegonnen{
+    margin-right: 0px;
+  }
+  .meerover .kwaliteitencontainer{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+  }
+  .meerover .kwaliteitencontainer .kwaliteiten{
+    width: 100%;
+  }
+}
 
 /*Call to action*/
 .leesmeer{
@@ -306,6 +334,14 @@ a:hover {
 
 .leesmeer h1{
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px){
+  .leesmeer h1{
+    font-size: 26px;
+    padding-left: 23px;
+    padding-right: 10px;
+  }
 }
 
 /*footer section*/
