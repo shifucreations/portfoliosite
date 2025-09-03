@@ -215,6 +215,25 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 480px){
+   .herosection #computerscreen #imagebox img{
+    display: none;
+  }
+  .herosection #computerscreen #titlebox p{
+    font-size: 17px;
+    padding-bottom: 20px;
+  }
+  .herosection #computerscreen{
+    min-height: 350px;
+  }
+  .herosection{
+    min-height: 480px;
+  }
+  #stand img{
+    max-width: 450px;
+  }
+}
+
 /*keyboard*/
 
 .keyboardsection{
@@ -302,6 +321,21 @@ a:hover {
   }
   .keyboardsection .keyboard .item{
     padding: 12px 18px;
+  }
+  .keyboardsection{
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+ .keyboardsection .keyboard h2{
+    font-size: 18px;
+  }
+  .keyboardsection .keyboard p{
+    font-size: 17px;
+  }
+  .keyboardsection .keyboard .item{
+    padding: 14px 18px;
   }
   .keyboardsection{
     padding-bottom: 100px;
@@ -414,6 +448,7 @@ a:hover {
   }
 }
 
+
 /*Overige services*/
 
 .overigeservices{
@@ -484,6 +519,18 @@ a:hover {
   }
   .overigeservices .servicescolumn .servicesboxes .service p{
     font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .overigeservices .servicescolumn .servicesboxes .service{
+    margin: 50px 0px;
+  }
+  .overigeservices .illustratie img{
+    height: 430px;
+  }
+  .overigeservices .illustratie h1{
+    padding-top: 30px;
   }
 }
 
@@ -597,6 +644,7 @@ a:hover {
 @media only screen and (min-width: 481px) and (max-width: 768px){
   .hoetewerk .row .stepcolumn{
     width: 85%;
+    margin: 20px 0px;
   }
   .hoetewerk .row .stepcolumn h2{
     font-size: 22px;
@@ -621,6 +669,51 @@ a:hover {
   }
   .hoetewerk .launchrow .stepcolumn p{
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+    .hoetewerk .row .stepcolumn{
+    width: 100%;
+  }
+  .hoetewerk .row .stepcolumn h2{
+    font-size: 19px;
+  }
+  .hoetewerk .row .stepcolumn h1{
+    font-size: 3.1rem;
+  }
+  .hoetewerk .row .stepcolumn p{
+    font-size: 17px;
+  }
+  .hoetewerk .row .iconcolumn img{
+    height: 300px;
+  }
+  .hoetewerk .launchrow .stepcolumn{
+    width: 100%;
+  }
+  .hoetewerk .launchrow .stepcolumn{
+    flex-direction: column;
+    display: flex;
+  }
+  .hoetewerk .launchrow .iconcolumn img{
+    display: none;
+  }
+  .hoetewerk .launchrow .stepcolumn h2{
+    font-size: 19px;
+    padding-left: 82px;
+  }
+  .hoetewerk .launchrow .stepcolumn p{
+    font-size: 17px;
+    padding-left: 82px;
+  }
+  .hoetewerk .launchrow .stepcolumn h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 18px;
+  }
+  .imagesection img{
+    height: 350px;
+    margin-left: -320px;
   }
 }
 
