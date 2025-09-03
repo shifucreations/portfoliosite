@@ -178,6 +178,21 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 480px){
+  .portfoliohero h1{
+    font-size: 3rem;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .portfoliohero .websitecolumn{
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+  }
+}
+
 /*websites*/
 
 .websitesection{
@@ -251,6 +266,38 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .websitesection .websites .content{
+    width: 70%;
+    margin-top: 40px;
+    padding-bottom: 70px;
+  }
+  .websitesection .title h1{
+    padding-bottom: 50px;
+  }
+  .websitesection .websites p{
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .websitesection .websites img{
+    height: 260px;
+  }
+  .websitesection .websites button{
+    padding: 18px 23px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .websitesection .websites .content{
+    margin-top: 40px;
+  }
+  .websitesection .title h1{
+    padding-bottom: 50px;
+  }
+}
+
 /*logos*/
 
 .logosection{
@@ -281,6 +328,29 @@ a:hover {
   margin: 0px 20px;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .logosection .logos img{
+    height: 300px;
+    margin-top: 30px;
+  }
+  .logosection{
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .logosection .logos img{
+    margin-top: 30px;
+    height: 310px;
+  }
+  .logosection{
+    padding-bottom: 50px;
+  }
+  .logosection .title h1{
+    padding-bottom: 50px;
+  }
+}
+
 /*visitekaartjes*/
 
 .kaartjessection{
@@ -309,6 +379,18 @@ a:hover {
   height: 250px;
   width: auto;
   margin: 20px 20px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .kaartjessection .visitekaartjes .kaartje img{
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .kaartjessection .title h1{
+    padding-bottom: 60px;
+  }
 }
 
 
@@ -348,6 +430,17 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .illustratiessection{
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .illustratiessection{
+    padding-bottom: 80px;
+  }
+}
 
 
 /*review section*/
@@ -387,6 +480,29 @@ a:hover {
   padding-bottom: 5px;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .reviews .reviewbox{
+    margin-top: 40px;
+    max-height: 400px;
+  }
+  .reviews .reviewbox p{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .reviews .reviewbox{
+    margin-top: 40px;
+    max-height: 320px;
+  }
+  .reviews .reviewbox img{
+    height: 60px;
+  }
+  .reviews .reviewbox p{
+    padding-top: 10px;
+  }
+}
 
 /*footer section*/
 
