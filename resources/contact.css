@@ -249,6 +249,33 @@ a:hover {
   border-radius: 0.375rem;
 }
 
+@media only screen and (max-width: 480px){
+  .contact-section .formsection{
+    min-width: 450px;
+  }
+  .form-input, .form-textarea{
+    width: 400px;
+  }
+  .form-submit{
+    width: 400px;
+  }
+  .contact-section .iconsection{
+    margin-right: 0px;
+  }
+  .contact-section .iconsection .iconbox i{
+    font-size: 1.5rem;
+  }
+  .herosection #secondcloud{
+    display: none;
+  }
+  .herosection img{
+    height: 100px;
+  }
+  .herosection{
+    justify-content: flex-start;
+  }
+}
+
 /*Veelgestelde vragen*/
 
 .faqsectie{
