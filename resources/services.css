@@ -200,6 +200,21 @@ a:hover {
     height: auto;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .herosection #computerscreen #imagebox img{
+    height:300px;
+  }
+  .herosection #computerscreen #titlebox p{
+    font-size: 19px;
+  }
+  .herosection #computerscreen{
+    min-height: 400px;
+  }
+  .herosection{
+    min-height: 550px;
+  }
+}
+
 /*keyboard*/
 
 .keyboardsection{
@@ -276,6 +291,21 @@ a:hover {
         width: 700px;
         height: auto;
     }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .keyboardsection .keyboard h2{
+    font-size: 20px;
+  }
+  .keyboardsection .keyboard p{
+    font-size: 19px;
+  }
+  .keyboardsection .keyboard .item{
+    padding: 12px 18px;
+  }
+  .keyboardsection{
+    padding-bottom: 100px;
+  }
 }
 
 /* webdesign services*/
@@ -364,6 +394,26 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .webservices .iconbox h2{
+    font-size: 22px;
+  }
+  .webservices .iconbox p{
+    font-size: 19px;
+    max-width: 400px;
+    padding-top: 10px;
+  }
+  .webservices .iconbox i{
+    font-size: 3.2rem;
+  }
+  .webservices{
+   flex-direction: column;
+  }
+  .webservices .iconbox{
+    min-width: 500px;
+  }
+}
+
 /*Overige services*/
 
 .overigeservices{
@@ -422,6 +472,19 @@ a:hover {
   line-height: 1.7rem;
   color:#636363;
   padding-left: 15px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .overigeservices .illustratie h1{
+    font-size: 2.2rem;
+    padding-top: 50px;
+  }
+  .overigeservices .servicescolumn .servicesboxes .service h2{
+    font-size: 21px;
+  }
+  .overigeservices .servicescolumn .servicesboxes .service p{
+    font-size: 19px;
+  }
 }
 
 /*Hoe ga ik te werk*/
@@ -529,6 +592,36 @@ a:hover {
   margin-left: -450px;
   margin-top: -200px;
   margin-bottom: -160px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .hoetewerk .row .stepcolumn{
+    width: 85%;
+  }
+  .hoetewerk .row .stepcolumn h2{
+    font-size: 22px;
+  }
+  .hoetewerk .row .stepcolumn p{
+    font-size: 20px;
+  }
+  .hoetewerk .row{
+    margin: 20px 0px;
+  }
+  .hoetewerk .row .iconcolumn img{
+    height: 360px;
+  }
+  .hoetewerk .launchrow .stepcolumn{
+    width: 90%;
+  }
+  .hoetewerk .launchrow .iconcolumn img{
+    display: none;
+  }
+  .hoetewerk .launchrow .stepcolumn h2{
+    font-size: 22px;
+  }
+  .hoetewerk .launchrow .stepcolumn p{
+    font-size: 20px;
+  }
 }
 
 
@@ -644,6 +737,62 @@ a:hover {
     color:cadetblue;
 }
 
+@media only screen and (max-width: 1440px){
+  .faqsectie .faqcolumn .vragen{
+    max-height: 450px;
+  }
+}
+
+.faqsectie .faqcolumn .vragen .vraag{
+    margin: 40px 5px;
+    text-align: left;
+    padding: 0px 60px;
+    display: flex;
+}
+
+.faqsectie .faqcolumn .vragen .vraag h2{
+    color:cadetblue;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.faqsectie .faqcolumn .vragen .vraag p{
+    padding-left:15px;
+    line-height: 1.7rem;
+    color:rgb(77, 77, 77);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.faqsectie .faqcolumn .vragen .vraag i{
+    font-size: 27px;
+    display: inline;
+    color:cadetblue;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .faqsectie .faqcolumn .vragen .vraag h2{
+    font-size: 21px;
+  }
+  .faqsectie .faqcolumn .vragen .vraag p{
+    font-size: 19px;
+  }
+  .faqsectie .faqcolumn .vragen .vraag i{
+    font-size: 30px;
+  }
+  .faqsectie .faqcolumn .topbar{
+    height: 35px;
+  }
+  .faqsectie .faqcolumn .bottombar{
+    height: 35px;
+  }
+  .faqsectie .faqcolumn .vragen{
+    max-height: 470px;
+  }
+}
+
 /*Call to action*/
 .leesmeer{
   display: flex;
@@ -672,6 +821,24 @@ a:hover {
 
 .leesmeer h1{
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px){
+  .leesmeer h1{
+    font-size: 26px;
+    padding-left: 23px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .leesmeer h1{
+    padding-left: 23px;
+    padding-right: 10px;
+  }
+  .leesmeer .calltoaction{
+    width: 80%;
+  }
 }
 
 
