@@ -263,7 +263,7 @@ a:hover {
     margin-right: 0px;
   }
   .contact-section .iconsection .iconbox i{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .herosection #secondcloud{
     display: none;
@@ -273,6 +273,42 @@ a:hover {
   }
   .herosection{
     justify-content: flex-start;
+    padding-top: 50px;
+  }
+  .herosection h1{
+    margin-left: 30px;
+    margin-top: -50px;
+  }
+  .herosection p{
+    margin-left: 30px;
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .herosection #secondcloud{
+    display: none;
+  }
+  .herosection img{
+    height: 120px;
+  }
+  .herosection{
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+  .herosection h1{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 2.5rem;
+  }
+  .herosection p{
+    font-size: 22px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .contact-section .iconsection{
+    display: flex;
   }
 }
 
