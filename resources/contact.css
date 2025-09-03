@@ -302,7 +302,7 @@ a:hover {
     font-size: 2.5rem;
   }
   .herosection p{
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
     padding-left: 20px;
     padding-right: 10px;
@@ -441,13 +441,13 @@ a:hover {
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
   .faqsectie .faqcolumn .vragen .vraag h2{
-    font-size: 21px;
-  }
-  .faqsectie .faqcolumn .vragen .vraag p{
     font-size: 19px;
   }
+  .faqsectie .faqcolumn .vragen .vraag p{
+    font-size: 18px;
+  }
   .faqsectie .faqcolumn .vragen .vraag i{
-    font-size: 30px;
+    font-size: 27px;
   }
   .faqsectie .faqcolumn .topbar{
     height: 35px;

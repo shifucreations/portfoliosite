@@ -155,6 +155,8 @@ a:hover {
   line-height: 1.7rem;
   font-weight: 500px;
   font-size: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 
@@ -180,7 +182,7 @@ a:hover {
     padding-top: 60px;
   }
   .over p{
-    font-size: 21px;
+    font-size: 18px;
   }
   .over #intro{
     margin-left: 0px;
@@ -333,7 +335,7 @@ a:hover {
     text-align: center;
   }
   .meerover .hoebegonnen p{
-    font-size: 21px;
+    font-size: 18px;
   }
   .meerover .hoebegonnen{
     margin-right: 0px;
@@ -350,13 +352,13 @@ a:hover {
     padding-right: 0px;
   }
   .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit h2{
-    font-size: 21px;
+    font-size: 18px;
   }
   .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit p{
-    font-size: 21px;
+    font-size: 17px;
   }
   .meerover .kwaliteitencontainer .kwaliteiten .kwaliteit i{
-    font-size: 30px;
+    font-size: 27px;
     display: inline;
     color:#8b8bd8;
   }
@@ -393,7 +395,7 @@ a:hover {
 
 @media only screen and (max-width: 480px){
   .leesmeer h1{
-    font-size: 26px;
+    font-size: 23px;
     padding-left: 23px;
     padding-right: 10px;
   }
