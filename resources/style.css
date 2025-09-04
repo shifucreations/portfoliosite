@@ -42,42 +42,52 @@ button:hover{
 /*header section*/
 header {
   background-color: #e6f7fe;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 0px;
+  padding: 25px 0px
 }
 
 header img{
     height: 110px;
     width: auto;
-    padding-left: 90px;
     display: inline;
-}
-
-header ul {
-  margin: 20px auto;
-  padding-right: 50px;
-  text-align: center;
-  display: inline-block;
+    padding-left: 90px;
 }
 
 
-header li{
-  color: black;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  display: inline-block;
-  width: 250px;
+header .contentbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-header i{
+header .contentbox ul{
+  list-style-type: none;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  padding-right: 90px;
+}
+
+
+header .contentbox i{
   color: #7ba4fc;
+  padding-right: 10px;
   font-size: 1.5rem;
 }
+
+header .contentbox .headercontact li{
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  header img{
+    height: 90px;
+  }
+}
+
 
 /*menubar*/
 
