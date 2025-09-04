@@ -164,6 +164,21 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 480px){
+  .wallsection .frame #imageframe{
+    display: none;
+  }
+  .wallsection .frame img{
+    height: 150px;
+  }
+  .wallsection .window img{
+    height: 250px;
+  }
+  .wallsection{
+    padding-top: 70px;
+  }
+}
+
 /*herosection*/
 
 .herosection{
@@ -248,6 +263,30 @@ a:hover {
 #stand img{
     max-width: 800px;
     height: auto;
+}
+
+@media only screen and (max-width: 480px){
+  #stand img{
+    max-width: 450px;
+  }
+  .herosection #computerscreen #imagebox img{
+    height: 350px;
+    margin-top: -100px;
+  }
+  .herosection #computerscreen{
+    margin-top: -110px;
+    padding-bottom: 40px;
+  }
+  .herosection #computerscreen #titlebox{
+    margin-top: -50px;
+  }
+  .herosection #computerscreen #titlebox p{
+    font-size: 18px;
+    padding-top: 30px;
+  }
+  .herosection #computerscreen #titlebox h1{
+    font-size: 2.2rem;
+  }
 }
 
 
@@ -346,6 +385,21 @@ a:hover {
   color: #2a4e9a;
 }
 
+@media only screen and (max-width: 480px){
+  .servicessection .servicesrow .servicebox #webdesign{
+    height: 200px;
+  }
+  .servicessection .servicesrow .servicebox #grafischdesign{
+    height: 180px;
+  }
+  .servicessection .servicesrow .servicebox{
+    margin-bottom: 50px;
+  }
+  .servicessection{
+    padding-bottom: 100px;
+  }
+}
+
 
 /*accordion section*/
 
@@ -420,6 +474,18 @@ a:hover {
  max-height: 300px;
 }
 
+@media only screen and (max-width: 480px){
+  .accordionsection .illustrationcol img{
+    height: 400px;
+  }
+  .accordionsection{
+    padding-top: 70px;
+  }
+  .accordionsection .accordioncol #accordion{
+    width: 95%;
+  }
+}
+
 
 
 
@@ -447,7 +513,7 @@ a:hover {
 
 .ideeen img{
   height: 100px;
-  width: 100px;
+  width: auto;
   margin-left: -430px;
 }
 
@@ -516,6 +582,21 @@ a:hover {
     font-size: 17px;
 }
 
+@media only screen and (max-width: 480px){
+  .ideeen h1{
+    font-size: 2.3rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+   .ideeen .overmij .overmijtext{
+    background-size: 280px;
+  }
+  .ideeen img{
+    margin-left: -230px;
+    height: 80px;
+  }
+}
 
 
 /*recente projecten*/
@@ -564,6 +645,17 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 480px){
+  .projecten .previewimage img{
+    height:200px;
+    margin-top: 40px;
+    margin-right: 0px;
+  }
+  .projectentitle h1{
+    padding-bottom: 40px;
+  }
+}
+
 /*review section*/
 
 .reviewtitle{
@@ -600,6 +692,30 @@ a:hover {
   height: 65px;
   width: auto;
   padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .reviews .reviewbox{
+    margin-top: 40px;
+    max-height: 400px;
+  }
+  .reviews .reviewbox p{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .reviews .reviewbox{
+    margin-top: 40px;
+    max-height: 320px;
+  }
+  .reviews .reviewbox img{
+    height: 60px;
+  }
+  .reviews .reviewbox p{
+    padding-top: 10px;
+  }
 }
 
 /*footer section*/
