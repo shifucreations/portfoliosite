@@ -514,6 +514,15 @@ header .contentbox .headercontact li{
   justify-content: center;
 }
 
+.footersection .contentrow .contentbox img{
+  height: 100px;
+  width: auto;
+}
+
+.footersection .contentrow .contentbox h2{
+  color:#494949
+}
+
 .footersection .contentrow .contentbox ul{
   list-style-type: none;
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
@@ -521,13 +530,14 @@ header .contentbox .headercontact li{
 
 .footersection .contentrow .contentbox a{
   text-decoration: none;
-  color:#323232;
-  font-weight: 500;
+  color:#20bad1;
+  font-weight: 600;
   transition: color 130ms ease-out 100ms;
 }
 
 .footersection .contentrow .contentbox a:hover{
-  color: #20bad1;
+  color: #7ba4fc;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 
@@ -575,4 +585,19 @@ header .contentbox .headercontact li{
 
 .footersection .copyright p{
   font-size: 16px;
+}
+
+@media only screen and (max-width: 480px){
+ .footersection .contentrow{
+  flex-direction: column;
+ }
+ .footersection .contentrow .contentbox{
+  margin-top: 40px;
+ }
+ .footersection .contentrow .contentbox .footermenu{
+  display: flex;
+ }
+ .footersection .contentrow .contentbox .footermenu li{
+  margin-right: 20px;
+ }
 }
