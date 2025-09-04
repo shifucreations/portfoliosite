@@ -570,10 +570,22 @@ header .contentbox .headercontact li{
 
 /*Hoe ga ik te werk*/
 
+.readytitle{
+  background-color:#cddeff;
+}
+
+.readytitle h1{
+  text-align: center;
+  font-size: 3rem;
+  color:#2a4e9a;
+  font-family: 'Londrina Shadow';
+  padding-top: 120px;
+}
+
 .hoetewerk{
   display: flex;
   flex-wrap: wrap;
-  padding-top: 100px;
+  padding-top: 10px;
   flex-direction: column;
   align-content: center;
   align-items: center;
@@ -707,7 +719,7 @@ header .contentbox .headercontact li{
 }
 
 @media only screen and (max-width: 480px){
-    .hoetewerk .row .stepcolumn{
+  .hoetewerk .row .stepcolumn{
     width: 100%;
   }
   .hoetewerk .row .stepcolumn h2{
@@ -748,6 +760,9 @@ header .contentbox .headercontact li{
   .imagesection img{
     height: 350px;
     margin-left: -320px;
+  }
+  .readytitle h1{
+    font-size: 2.5rem;
   }
 }
 
