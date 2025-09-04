@@ -168,7 +168,7 @@ a:active{
 .wallsection .frame img{
   height: 200px;
   width: auto;
-  margin-top: -120px;
+  margin-top: -130px;
 }
 
 .wallsection .frame #imageframe{
@@ -189,10 +189,10 @@ a:active{
 
 @media only screen and (max-width: 1440px){
   .wallsection .window img{
-    height: 350px;
+    height: 330px;
   }
   .wallsection .frame img{
-    margin-top: -180px;
+    margin-top: -190px;
   }
 }
 
@@ -245,7 +245,6 @@ a:active{
   display: flex;
   flex-wrap: wrap;
   min-height: 600px;
-  min-width: 60%;
   margin-top: -150px;
   justify-content: center;
   align-content: center;
@@ -294,9 +293,9 @@ a:active{
 
 
 .herosection #computerscreen #imagebox img{
-  height: 650px;
+  height: 600px;
   width: auto;
-  margin-left: 25px;
+  margin-left: 40px;
   margin-top: -195px;
 }
 
