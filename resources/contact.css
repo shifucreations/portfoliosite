@@ -140,15 +140,16 @@ header .contentbox .headercontact li{
     box-shadow: #cddeff 3px 3px;
 }
 
-a:hover {
+.menubar a:hover {
   color: white;
   background-color: #20bad1;
 }
 
-a:active{
+.menubar a:active{
   color: white;
   background-color: #20bad1;
 }
+
 
 
 /*herosection*/
