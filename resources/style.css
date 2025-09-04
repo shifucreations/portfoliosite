@@ -88,6 +88,16 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 480px){
+ header .contentbox{
+  margin-right:auto;
+  margin-left: auto;
+ }
+ header img{
+  padding-left: 0px;
+ }
+}
+
 
 /*menubar*/
 
@@ -96,7 +106,7 @@ header .contentbox .headercontact li{
   color: white;
   position: sticky;
   top: 0px;
-  min-width: 100%;
+  max-width: 100%;
   z-index: 100;
   display: flex;
   flex-wrap: wrap;
@@ -139,6 +149,7 @@ a:active{
   color: white;
   background-color: #20bad1;
 }
+
 
 
 /*picture frames section*/
