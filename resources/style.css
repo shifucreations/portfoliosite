@@ -179,6 +179,21 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .wallsection .frame img{
+    height: 180px;
+  }
+  .wallsection .window img{
+    height: 290px;
+  }
+  .wallsection{
+    padding-top: 70px;
+  }
+  .wallsection .frame #imageframe{
+  height:172px;
+  }
+}
+
 /*herosection*/
 
 .herosection{
@@ -275,6 +290,31 @@ a:hover {
   }
   .herosection #computerscreen{
     margin-top: -110px;
+    padding-bottom: 40px;
+  }
+  .herosection #computerscreen #titlebox{
+    margin-top: -50px;
+  }
+  .herosection #computerscreen #titlebox p{
+    font-size: 18px;
+    padding-top: 30px;
+  }
+  .herosection #computerscreen #titlebox h1{
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+   #stand img{
+    max-width: 550px;
+  }
+  .herosection #computerscreen #imagebox img{
+    height: 400px;
+    margin-top: -150px;
+    margin-left: -50px;
+  }
+  .herosection #computerscreen{
+    margin-top: -130px;
     padding-bottom: 40px;
   }
   .herosection #computerscreen #titlebox{
@@ -400,6 +440,17 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .servicessection .servicesrow .servicebox #webdesign{
+    height: 200px;
+  }
+  .servicessection .servicesrow .servicebox{
+    margin-bottom: 60px;
+  }
+  .servicessection{
+    padding-bottom: 80px;
+  }
+}
 
 /*accordion section*/
 
@@ -486,7 +537,15 @@ a:hover {
   }
 }
 
-
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .accordionsection .illustrationcol img{
+    height: 430px;
+  }
+  .accordionsection{
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+}
 
 
 /*Breng je ideeen tot leven*/
@@ -598,6 +657,21 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .ideeen h1{
+    font-size: 2.6rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+   .ideeen .overmij .overmijtext{
+    background-size: 280px;
+  }
+  .ideeen img{
+    margin-left: -380px;
+  }
+}
+
 
 /*recente projecten*/
 .projecten{
@@ -648,6 +722,17 @@ a:hover {
 @media only screen and (max-width: 480px){
   .projecten .previewimage img{
     height:200px;
+    margin-top: 40px;
+    margin-right: 0px;
+  }
+  .projectentitle h1{
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+   .projecten .previewimage img{
+    height: 230px;
     margin-top: 40px;
     margin-right: 0px;
   }
