@@ -73,7 +73,7 @@ header .contentbox ul{
 
 
 header .contentbox i{
-  color: #7ba4fc;
+  color: #20bad1;
   padding-right: 10px;
   font-size: 1.5rem;
 }
@@ -114,19 +114,27 @@ header .contentbox .headercontact li{
   color: white;
   font-family: 'Urbanist', sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   display: inline-block;
-  padding: 20px 0px;
+  padding: 22px 0px;
   width: 100px;
 }
 
 .menubar a{
-    color: white;
-    transition: color 200ms ease-out 100ms;
+    color: rgb(94, 94, 94);
+    background-color: #e6f7fe;
+    transition: all 200ms ease-out 100ms;
+    text-decoration: none;
+    padding: 7px 10px;
+    border: 2px solid #7ba4fc;
+    border-radius: 10px;
+    box-shadow: #7ba4fc 3px 3px;
 }
 
 a:hover {
-  color: black;
+  color: white;
+  border: 2px solid #cddeff;
+  background-color: #20bad1;
 }
 
 
