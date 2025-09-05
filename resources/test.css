@@ -100,3 +100,64 @@ header .contentbox .headercontact li{
 
 /*menu*/
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    background-color: #2a4e9a;
+    color:#cddeff;
+    z-index: 100;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-container .navbar-menu{
+    display: flex;
+    text-align: center;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+.navbar-container .navbar-menu li a{
+    color: #e6f7fe;
+    transition: all 200ms ease-out 100ms;
+    text-decoration: none;
+    padding: 7px 10px;
+    border: 2px solid #cddeff;
+    border-radius: 10px;
+    box-shadow: #cddeff 3px 3px;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.navbar-container .navbar-menu li a:hover{
+  color: white;
+  background-color: #20bad1;
+}
+
+.navbar-toggle{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color:#cddeff;
+    transition: all 0.3s ease-in-out;
+}
