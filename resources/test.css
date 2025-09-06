@@ -248,16 +248,18 @@ header .contentbox .headercontact li{
 .accordion-item-body{
   font-size: 17px;
   font-weight: 500;
-  display: none;
   line-height: 1.8rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
-.accordion-item-header.active + .accordion-item-body{
-  display: block;
-}
 
 .accordion-item-body-content{
   border-top: 2px solid black;
-  padding: 40px 30px;
+  padding: 1.5rem;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.8rem;
 }
 
