@@ -153,6 +153,12 @@ header .contentbox .headercontact li{
     border: none;
     cursor: pointer;
     display: none;
+    box-shadow: #cddeff 3px 3px;
+    border: 2px solid #cddeff;
+}
+
+.navbar-toggle:hover{
+  background-color:#20bad1;
 }
 
 .bar{
