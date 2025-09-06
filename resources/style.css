@@ -562,72 +562,63 @@ header .contentbox .headercontact li{
 .accordionsection .illustrationcol img{
   height: 450px;
   width: auto;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
-.accordionsection .accordioncol #accordion{
-  width: 500px;
+.accordion{
+ max-width: 40%;
+ margin-left: 80px;
 }
 
-.accordionsection .accordioncol #accordion li label{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
-  cursor: pointer;
-  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  padding: 13px 15px;
-}
-
-
-.accordionsection .accordioncol #accordion li{
-  list-style: none;
-  width: 100%;
+.accordion-item{
+  margin: 2rem 0;
   background-color:#e6f7fe;
+  border: 2px solid black;
   border-radius: 20px;
-  border: 1.5px solid black;
-  box-shadow: rgb(0, 0, 0) 2px 2px;
-  margin: 30px 10px;
+  box-shadow: rgb(0, 0, 0) 3px 3px;
 }
 
-.accordionsection .accordioncol #accordion li p{
-  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-size: 16px;
+.accordion-item-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.accordion-item-header i{
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion-item-header.active i{
+  transform: rotate(180deg);
+}
+
+
+.accordion-item-body{
+  font-size: 17px;
   font-weight: 500;
-  line-height: 1.7rem;
-}
-
-.accordionsection .accordioncol #accordion li label span{
-  transform: rotate(90deg);
-  font-size: 1.5rem;
-}
-
-.accordionsection .accordioncol #accordion label + input[type="radio"]{
-  display: none;
-}
-
-.accordionsection .accordioncol #accordion .content{
-  padding: 5px 10px;
-  max-height: 0px;
+  line-height: 1.8rem;
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s;
+  transition: max-height 0.2s ease-out;
 }
 
-.accordionsection .accordioncol #accordion label + input[type="radio"]:checked + .content{
- max-height: 300px;
+
+.accordion-item-body-content{
+  border-top: 2px solid black;
+  padding: 1.5rem;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.8rem;
 }
 
 @media only screen and (max-width: 480px){
   .accordionsection .illustrationcol img{
     height: 400px;
   }
-  .accordionsection{
-    padding-top: 70px;
-  }
-  .accordionsection .accordioncol #accordion{
-    width: 95%;
+  .accordion{
+    margin-left: 0px;
+    max-width: 90%;
   }
 }
 
@@ -635,9 +626,9 @@ header .contentbox .headercontact li{
   .accordionsection .illustrationcol img{
     height: 430px;
   }
-  .accordionsection{
-    padding-top: 80px;
-    padding-bottom: 100px;
+  .accordion{
+    margin-left: 0px;
+    max-width: 80%;
   }
 }
 

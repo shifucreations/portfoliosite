@@ -22,9 +22,13 @@ accordionItemHeaders.forEach(accordionItemHeader =>{
         else {
           accordionItemBody.style.maxHeight = 0;
         }
+        const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+          if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {   
+            currentlyActiveAccordionItemHeader.classList.toggle("active");   
+            currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+        }
     })
 });
-
 
 
 
