@@ -213,5 +213,53 @@ header .contentbox .headercontact li{
     }
 }
 
+/*accordion*/
 
+.accordion{
+ max-width: 60%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.accordion-item{
+  margin: 1rem 0;
+  background-color:#e6f7fe;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 3px 3px;
+}
+
+.accordion-item-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.accordion-item-header i{
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion-item-header.active i{
+  transform: rotate(180deg);
+}
+
+
+.accordion-item-body{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.8rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-header.active + .accordion-item-body{
+  max-height: 400px;
+}
+
+.accordion-item-body-content{
+  border-top: 2px solid black;
+  padding: 40px 30px;
+}
 
