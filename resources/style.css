@@ -554,8 +554,8 @@ header .contentbox .headercontact li{
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color:#cddeff;
 }
 
@@ -571,7 +571,7 @@ header .contentbox .headercontact li{
 }
 
 .accordion-item{
-  margin: 2rem 0;
+  margin: 2.1rem 0;
   background-color:#e6f7fe;
   border: 2px solid black;
   border-radius: 20px;
@@ -581,7 +581,7 @@ header .contentbox .headercontact li{
 .accordion-item-header{
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 12px 20px;
   cursor: pointer;
 }
 
