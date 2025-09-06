@@ -27,7 +27,7 @@ accordionItemHeaders.forEach(accordionItemHeader =>{
             currentlyActiveAccordionItemHeader.classList.toggle("active");   
             currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
         }
-    })
+    });
 });
 
 
