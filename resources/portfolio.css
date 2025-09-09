@@ -506,6 +506,12 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+  .kaartjessection .visitekaartjes .kaartje img{
+    height: 200px;
+  }
+}
+
 
 /*illustraties*/
 
