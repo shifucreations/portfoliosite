@@ -98,6 +98,18 @@ header .contentbox .headercontact li{
  }
 }
 
+@media only screen and (max-width: 380px){
+  header img{
+    height: 90px;
+  }
+  header .contentbox i{
+    font-size: 1.2rem;
+  }
+  header li{
+    font-size: 15px;
+  }
+}
+
 
 /*menubar*/
 
@@ -289,6 +301,21 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+  .wallsection .frame #imageframe{
+    display: none;
+  }
+  .wallsection .frame img{
+    height: 130px;
+  }
+  .wallsection .window img{
+    height: 220px;
+  }
+  .wallsection{
+    padding-top: 60px;
+  }
+}
+
 /*herosection*/
 
 .herosection{
@@ -423,6 +450,22 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+  .herosection #computerscreen #imagebox img{
+    height: 320px;
+    margin-top: -70px;
+    margin-left: -50px;
+  }
+  .herosection #computerscreen{
+    margin-top: -100px;
+  }
+   .herosection #computerscreen #titlebox p{
+    font-size: 17px;
+  }
+  .herosection #computerscreen #titlebox h1{
+    font-size: 2rem;
+  }
+}
 
 /*services section*/
 
@@ -546,6 +589,18 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+  .servicessection .servicesrow .servicebox{
+    min-width: 95%
+  }
+  .servicessection .servicesrow .servicebox #webdesign{
+    height: 170px;
+  }
+  .servicessection .servicesrow .servicebox #grafischdesign{
+    height: 150px;
+  }
+}
+
 /*accordion section*/
 
 .accordionsection{
@@ -629,6 +684,18 @@ header .contentbox .headercontact li{
   .accordion{
     margin-left: 0px;
     max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .accordionsection .illustrationcol img{
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .accordionsection{
+    padding-top: 50px;
   }
 }
 
@@ -743,6 +810,24 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+  .ideeen h1{
+    font-size: 2.3rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+   .ideeen .overmij .overmijtext{
+    background-size: 220px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .ideeen img{
+    margin-left: -180px;
+    height: 75px;
+  }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px){
   .ideeen h1{
     font-size: 2.6rem;
@@ -816,6 +901,19 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+  .projecten .previewimage img{
+    height:170px;
+  }
+  .projectentitle h1{
+    font-size: 2rem;
+  }
+  .portfoliobutton button{
+  padding: 20px 25px;
+  font-size: 17px;
+}
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px){
    .projecten .previewimage img{
     height: 230px;
@@ -871,7 +969,7 @@ header .contentbox .headercontact li{
     max-height: 400px;
   }
   .reviews .reviewbox p{
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 20px;
   }
 }
@@ -886,6 +984,23 @@ header .contentbox .headercontact li{
   }
   .reviews .reviewbox p{
     padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+   .reviews .reviewbox{
+    margin-top: 40px;
+    max-height: 320px;
+    max-width: 360px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .reviews .reviewbox img{
+    height: 60px;
+  }
+  .reviews .reviewbox p{
+    padding-top: 10px;
+    font-size: 17px;
   }
 }
 
@@ -996,4 +1111,13 @@ header .contentbox .headercontact li{
  .footersection .contentrow .contentbox .footermenu li{
   margin-right: 20px;
  }
+}
+
+@media only screen and (max-width: 380px){
+  .footersection .copyright{
+    padding: 15px 40px;
+  }
+  .footersection .copyright p{
+    padding-right: 10px;
+  }
 }
