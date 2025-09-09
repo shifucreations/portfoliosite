@@ -263,7 +263,7 @@ header .contentbox .headercontact li{
 
 .portfoliohero .websitecolumn img{
   height: 180px;
-  width: 330px;
+  width: auto;
   padding: 60px 10px;
   background-image: url(../resources/images/miniclouds.png);
   background-attachment: fixed;
@@ -290,6 +290,8 @@ header .contentbox .headercontact li{
     padding-bottom: 60px;
   }
 }
+
+
 
 /*websites*/
 
@@ -396,6 +398,12 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 380px){
+   .websitesection .title h1{
+    padding-bottom: 50px;
+  }
+}
+
 /*logos*/
 
 .logosection{
@@ -424,6 +432,13 @@ header .contentbox .headercontact li{
   height: 250px;
   width: auto;
   margin: 0px 20px;
+}
+
+@media only screen and (max-width: 380px){
+  .logosection .logos img{
+    margin-top: 30px;
+    height: 200px;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
@@ -599,6 +614,23 @@ header .contentbox .headercontact li{
   }
   .reviews .reviewbox p{
     padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+   .reviews .reviewbox{
+    margin-top: 40px;
+    max-height: 320px;
+    max-width: 360px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .reviews .reviewbox img{
+    height: 60px;
+  }
+  .reviews .reviewbox p{
+    padding-top: 10px;
+    font-size: 17px;
   }
 }
 
