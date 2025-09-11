@@ -213,53 +213,34 @@ header .contentbox .headercontact li{
     }
 }
 
-/*accordion*/
 
-.accordion{
- max-width: 60%;
- margin-left: auto;
- margin-right: auto;
-}
 
-.accordion-item{
-  margin: 1rem 0;
-  background-color:#e6f7fe;
-  border: 2px solid black;
-  border-radius: 20px;
-  box-shadow: rgb(0, 0, 0) 3px 3px;
-}
 
-.accordion-item-header{
+.imagesection{
   display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #cddeff;
+  padding: 100px 0px;
 }
 
-.accordion-item-header i{
-  transition: all 0.2s ease-in-out;
-}
-
-.accordion-item-header.active i{
-  transform: rotate(180deg);
-}
-
-
-.accordion-item-body{
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.8rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+.imagesection img{
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: -450px;
+  margin-top: -200px;
+  margin-bottom: -160px;
+  height: 500px;
+  width: auto;
 }
 
 
-.accordion-item-body-content{
-  border-top: 2px solid black;
-  padding: 1.5rem;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.8rem;
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    to  { transform: translate(0, -50px); } 
 }
+
+
 

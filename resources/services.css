@@ -740,14 +740,25 @@ header .contentbox .headercontact li{
   align-items: center;
   justify-content: center;
   background-color: #cddeff;
+  padding: 100px 0px;
 }
 
 .imagesection img{
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: -450px;
+  margin-top: -300px;
+  margin-bottom: -300px;
   height: 500px;
   width: auto;
-  margin-left: -450px;
-  margin-top: -200px;
-  margin-bottom: -160px;
+}
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    to  { transform: translate(0, -100px); } 
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
