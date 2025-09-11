@@ -758,7 +758,7 @@ header .contentbox .headercontact li{
 
 @keyframes floating {
     from { transform: translate(0,  0px); }
-    to  { transform: translate(0, -100px); } 
+    to  { transform: translate(0, -120px); } 
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
