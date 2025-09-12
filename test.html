@@ -57,32 +57,22 @@
 
 
 <!--working contact form test-->
-<div class="formsection">
-  <div class="wrapper">
-    <h1>Laat een bericht achter</h1>
-    <form action="#">
-      <div class="dbl-field">
-        <div class="field">
-          <input type="text" placeholder="Naam">
-        </div>
-        <div class="field">
-          <input type="text" placeholder="Email">
-        </div>
-        <div class="field">
-          <input type="text" placeholder="Telefoon">
-        </div>
-        <div class="field">
-          <input type="text" placeholder="Onderwerp">
-        </div>
-      </div>
-      <div class="message">
-        <textarea placeholder="Ik ben benieuwd naar je ideeën!"></textarea>
-      </div>
-      <div class="button-area">
-        <button type="submit">Go!</button>
-        <span>Aan het verzenden...</span>
-      </div>
-    </form>
+
+<div class="contact-container">
+  <form action="" class="contact-left">
+    <div class="contact-left-title">
+      <h1>Laat een bericht achter</h1>
+      <hr>
+    </div>
+    <input type="text" name="Naam" placeholder="Voor-en achternaam" class="contact-inputs" required>
+    <input type="email" name="email" placeholder="Email-adres" class="contact-inputs" required>
+    <input type="number" name="telefoon" placeholder="Telefoon" class="contact-inputs">
+    <input type="text" name="onderwerp" placeholder="Onderwerp" class="contact-inputs" required>
+    <textarea name="bericht" placeholder="Ik ben benieuwd naar je ideeën!" class="contact-inputs" required></textarea>
+    <button type="submit">Go! <i class="bi bi-rocket-takeoff"></i></button>
+  </form>
+  <div class="contact-right">
+
   </div>
 </div>
 
