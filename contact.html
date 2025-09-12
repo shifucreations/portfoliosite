@@ -60,7 +60,6 @@
   </div>
   <div>
     <h1>Contact</h1>
-    <p>Laat een bericht achter, ik zal zo snel mogelijk reageren!</p>
   </div>
   <div>
     <img id="secondcloud" src="./resources/images/whitecloud.png"/>
@@ -69,10 +68,22 @@
 
 <!--contact section-->  
 
-<section class="contact-section">
+<div class="contact-container">
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+    <input type="hidden" name="access_key" value="37461578-aadb-4b62-a9b4-4a01b8e7ac1a">
 
-  <div class="iconsection">
-   <div class="iconbox">
+    <div class="contact-left-title">
+      <h1>Laat hier een bericht achter</h1>
+    </div>
+    <input type="text" name="Naam" placeholder="Voor-en achternaam" class="contact-inputs" required>
+    <input type="email" name="email" placeholder="Email-adres" class="contact-inputs" required>
+    <input type="text" name="telefoon" placeholder="Telefoon" class="contact-inputs">
+    <input type="text" name="onderwerp" placeholder="Onderwerp" class="contact-inputs" required>
+    <textarea name="bericht" placeholder="Ik ben benieuwd naar je ideeën!" class="contact-inputs" required></textarea>
+    <button type="submit">Go! <i class="bi bi-rocket-takeoff"></i></button>
+  </form>
+  <div class="contact-right">
+    <div class="iconbox">
      <i class="bi bi-telephone-fill"></i>
      <h2>Telefoon</h2>
      <p>0852129631</p>
@@ -88,33 +99,7 @@
      <p>Roosendaal, Nederland</p>
    </div>
   </div>
-
-  <div class="formsection">
-
-    <form class="contact-form"   method="POST">
-
-      <div class="form-group-container">
-        <div class="form-group">
-          <label for="name" class="form-label">Naam</label>
-          <input id="name" name="name" class="form-input" type="text" required />
-        </div>
-        <div class="form-group">
-          <label for="email" class="form-label">Email</label>
-          <input id="email" name="email" class="form-input" type="email" required/>
-        </div>
-        <div class="form-group">
-          <label for="phone" class="form-label">Telefoon</label>
-          <input id="phone" name="phone" class="form-input" type="text" />
-        </div>
-        <div class="form-group">
-          <label for="message" class="form-label">Bericht</label>
-          <textarea class="form-textarea" id="message" name="message" placeholder="Ik ben benieuwd naar je ideeën!"></textarea>
-        </div>
-      </div>
-      <button class="form-submit" type="submit">Go!</button>
-    </form>
-  </div>
-</section>
+</div>
 
 
 <!--FAQ-->
