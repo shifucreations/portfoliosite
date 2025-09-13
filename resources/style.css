@@ -931,77 +931,51 @@ header .contentbox .headercontact li{
 .reviewtitle{
   display: flex;
   justify-content: center;
-  background-color:#e6f7fe;
-  padding-top: 120px;
-  padding-bottom: 70px;
+  background-color:#cddeff;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 
 .reviews{
-    background-color:#e6f7fe;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-height: 350px;
-    align-content: center;
-    padding-bottom: 140px;
+  background-color:#cddeff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 130px;
+  align-content: center;
 }
 
 .reviews .reviewbox{
-     text-align: left;
-     padding: 50px;
-     background-color: white;
-     max-height: 300px;
-     max-width: 400px;
-     margin: 0px 40px;
-     border-radius: 20px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: left;
+  padding: 50px;
+  background-color: white;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reviews .reviewbox p{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.7rem;
+  padding-top: 15px;
 }
 
 .reviews .reviewbox img{
-  height: 65px;
+  height: 60px;
   width: auto;
   padding-bottom: 5px;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .reviews .reviewbox{
-    margin-top: 40px;
-    max-height: 400px;
-  }
-  .reviews .reviewbox p{
-    font-size: 17px;
-    padding-top: 20px;
-  }
-}
 
 @media only screen and (max-width: 480px){
   .reviews .reviewbox{
-    margin-top: 40px;
-    max-height: 320px;
-  }
-  .reviews .reviewbox img{
-    height: 60px;
-  }
-  .reviews .reviewbox p{
-    padding-top: 10px;
-  }
-}
-
-@media only screen and (max-width: 380px){
-   .reviews .reviewbox{
-    margin-top: 40px;
-    max-height: 320px;
-    max-width: 360px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .reviews .reviewbox img{
-    height: 60px;
-  }
-  .reviews .reviewbox p{
-    padding-top: 10px;
-    font-size: 17px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
