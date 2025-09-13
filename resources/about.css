@@ -259,14 +259,15 @@ header .contentbox .headercontact li{
 
 @media only screen and (max-width: 480px){
   .over .portraitimg img{
-    height: 300px;
+    height: 230px;
     margin-right: 0px;
   }
   .over{
     padding-top: 50px;
   }
   .over h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-top: 15px;
   }
 }
 
@@ -279,7 +280,7 @@ header .contentbox .headercontact li{
     padding-top: 60px;
   }
   .over p{
-    font-size: 18px;
+    font-size: 17px;
   }
   .over #intro{
     margin-left: 0px;
@@ -405,10 +406,13 @@ header .contentbox .headercontact li{
   }
   .meerover .hoebegonnen h2{
     text-align: center;
+    font-size: 25px;
   }
   .meerover .hoebegonnen p{
     padding-left: 30px;
     padding-right: 20px;
+    font-size: 17px;
+    padding-bottom: 20px;
   }
   .meerover .hoebegonnen{
     margin-right: 0px;
