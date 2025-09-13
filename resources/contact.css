@@ -226,33 +226,33 @@ header .contentbox .headercontact li{
   padding-top: 80px;
 }
 
-.herosection img{
-  height: 130px;
-  width: auto;
-}
-
 .herosection h1{
   font-size: 2.5rem;
   color: #2a4e9a;
   text-align: center;
-  margin-top: 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url(../resources/images/whitecloud.png);
+  background-attachment: scroll;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: floating;
+  animation-duration: 7s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
 }
 
-.herosection p{
-  text-align: center;
-  font-size: 17px;
-  font-weight: 500;
-  padding-top: 30px;
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    25%  { transform: translate(-10px, 5px); } 
+    50% { transform: translate(0px, -5px); } 
+    75% { transform: translate(5px, -10px); } 
+    100% { transform: translate(0px, 0px); } 
 }
 
-@media only screen and (max-width: 580px){
-  .herosection #secondcloud{
-    display: none;
-  }
-  .herosection img{
-    height: 90px;
-  }
-}
+
 
 /*Contact form section*/
 
