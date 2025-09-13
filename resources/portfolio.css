@@ -281,7 +281,7 @@ header .contentbox .headercontact li{
   font-size: 2.8rem;
   font-weight: 600;
   color: #2a4e9a;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .websitesection .websites .content{
@@ -293,6 +293,7 @@ header .contentbox .headercontact li{
   width: 450px;
   margin-right: 15px;
   margin-left: 15px;
+  margin-top: 40px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background-color: #e6f7fe;
@@ -315,19 +316,16 @@ header .contentbox .headercontact li{
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 17px;
 }
 
 .websitesection .websites img{
-  height: 250px;
+  height: 180px;
   width: auto;
 }
 
 
 @media only screen and (max-width: 1440px){
-  .websitesection .websites img{
-    height: 180px;
-    width: auto;
-  }
   .websitesection .websites .content{
     width: 350px;
   }
@@ -336,32 +334,32 @@ header .contentbox .headercontact li{
 @media only screen and (min-width: 481px) and (max-width: 768px){
   .websitesection .websites .content{
     width: 70%;
-    margin-top: 40px;
     padding-bottom: 70px;
   }
   .websitesection .title h1{
     padding-bottom: 50px;
+    font-size: 2.2rem;
   }
   .websitesection .websites p{
-    font-size: 22px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .websitesection .websites img{
-    height: 260px;
-  }
   .websitesection .websites button{
     padding: 18px 23px;
-    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 480px){
-  .websitesection .websites .content{
-    margin-top: 40px;
-  }
   .websitesection .title h1{
     padding-bottom: 50px;
+    font-size: 2.2rem;
+  }
+  .websitesection .websites p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .websitesection .websites img{
+    height: 150px;
   }
 }
 
@@ -396,12 +394,6 @@ header .contentbox .headercontact li{
   margin: 0px 20px;
 }
 
-@media only screen and (max-width: 380px){
-  .logosection .logos img{
-    margin-top: 30px;
-    height: 200px;
-  }
-}
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
   .logosection .logos img{
@@ -411,18 +403,23 @@ header .contentbox .headercontact li{
   .logosection{
     padding-bottom: 70px;
   }
+  .logosection .title h1{
+    padding-bottom: 25px;
+    font-size: 2.2rem;
+  }
 }
 
 @media only screen and (max-width: 480px){
   .logosection .logos img{
     margin-top: 30px;
-    height: 310px;
+    height: 220px;
   }
   .logosection{
     padding-bottom: 50px;
   }
   .logosection .title h1{
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    font-size: 2.2rem;
   }
 }
 
@@ -460,17 +457,19 @@ header .contentbox .headercontact li{
   .kaartjessection .visitekaartjes .kaartje img{
     height: 300px;
   }
+  .kaartjessection .title h1{
+    font-size: 2.2rem;
+  }
 }
 
 @media only screen and (max-width: 480px){
   .kaartjessection .title h1{
     padding-bottom: 60px;
+    font-size: 2.2rem;
   }
-}
-
-@media only screen and (max-width: 380px){
-  .kaartjessection .visitekaartjes .kaartje img{
-    height: 200px;
+   .kaartjessection .visitekaartjes .kaartje img{
+    width: 90vw;
+    height: auto;
   }
 }
 
@@ -531,7 +530,7 @@ header .contentbox .headercontact li{
   justify-content: center;
   background-color:#cddeff;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 
@@ -548,57 +547,31 @@ header .contentbox .headercontact li{
   text-align: left;
   padding: 50px;
   background-color: white;
-  max-height: 300px;
-  max-width: 400px;
-  margin: 0px 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.reviews .reviewbox p{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.7rem;
+  padding-top: 15px;
+}
+
 .reviews .reviewbox img{
-  height: 65px;
+  height: 60px;
   width: auto;
   padding-bottom: 5px;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .reviews .reviewbox{
-    margin-top: 40px;
-    max-height: 400px;
-  }
-  .reviews .reviewbox p{
-    font-size: 20px;
-    padding-top: 20px;
-  }
-}
 
 @media only screen and (max-width: 480px){
   .reviews .reviewbox{
-    margin-top: 40px;
-    max-height: 320px;
-  }
-  .reviews .reviewbox img{
-    height: 60px;
-  }
-  .reviews .reviewbox p{
-    padding-top: 10px;
-  }
-}
-
-@media only screen and (max-width: 380px){
-   .reviews .reviewbox{
-    margin-top: 40px;
-    max-height: 320px;
-    max-width: 360px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .reviews .reviewbox img{
-    height: 60px;
-  }
-  .reviews .reviewbox p{
-    padding-top: 10px;
-    font-size: 17px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
