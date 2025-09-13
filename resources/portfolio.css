@@ -222,72 +222,39 @@ header .contentbox .headercontact li{
 .portfoliohero{
     display: flex;
     flex-wrap: wrap;
-    min-height: 600px;
     justify-content: center;
     align-items: center;
     align-content: center;
     background-color: #e6f7fe;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .portfoliohero h1{
-  font-size: 4rem;
+  font-size: 3rem;
   margin-right: 50px;
+  text-align: center;
 }
 
-.portfoliohero .websitecolumn{
-  min-width: 350px;
-  margin-left: 80px;
-}
-
-.portfoliohero .websitecolumn #topbar{
-    height: 30px;
-    background-color:#20bad1;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-}
-
-.portfoliohero .websitecolumn #bottombar{
-  height: 30px;
-  background-color:#20bad1;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
-  margin-top: -10px;
-}
-
-
-.portfoliohero .websitecolumn img{
-  height: 180px;
+.portfoliohero .illustrationcolumn img{
+  height: 280px;
   width: auto;
-  padding: 60px 10px;
-  background-image: url(../resources/images/miniclouds.png);
-  background-attachment: fixed;
-  border: 3px solid black;
 }
 
-@media only screen and (max-width: 1440px){
-  .portfoliohero{
-    min-height: 500px;
-  }
-}
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 800px){
   .portfoliohero h1{
-    font-size: 3rem;
     margin-right: 0px;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
-  .portfoliohero .websitecolumn{
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 60px;
+  .portfoliohero{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .portfoliohero .illustrationcolumn img{
+    height: 220px;
   }
 }
 
@@ -398,11 +365,6 @@ header .contentbox .headercontact li{
   }
 }
 
-@media only screen and (max-width: 380px){
-   .websitesection .title h1{
-    padding-bottom: 50px;
-  }
-}
 
 /*logos*/
 
