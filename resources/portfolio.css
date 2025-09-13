@@ -490,29 +490,27 @@ header .contentbox .headercontact li{
  }
 
  .illustratiessection .illustraties img{
-  height: 350px;
+  height: 300px;
   width: auto;
-  margin: 60px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
  }
 
-@media only screen and (max-width: 1440px){
+
+@media only screen and (max-width: 800px){
+  .illustratiessection{
+    padding-bottom: 80px;
+  }
   .illustratiessection .illustraties img{
-    margin: 20px;
-    height: 300px;
+    height: auto;
+    width: 80%;
+  }
+  .illustratiessection .title h1{
+    font-size: 2.2rem;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .illustratiessection{
-    padding-bottom: 80px;
-  }
-}
-
-@media only screen and (max-width: 480px){
-  .illustratiessection{
-    padding-bottom: 80px;
-  }
-}
 
 
 /*review section*/
