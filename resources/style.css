@@ -473,8 +473,8 @@ header .contentbox .headercontact li{
 .servicessection{
   background-color: #e6f7fe;
   width: 100%;
-  padding-bottom: 170px;
-  padding-top: 60px;
+  padding-bottom: 130px;
+  padding-top: 40px;
 }
 
 .servicessection .servicesrow{
@@ -491,12 +491,12 @@ header .contentbox .headercontact li{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 420px;
+  max-width: 380px;
   border: 2px solid black;
   border-radius: 20px;
   box-shadow: rgb(0, 0, 0) 3px 3px;
   background-color: #cddeff;
-  margin: 0px 60px;
+  margin: 40px 60px;
 }
 
 .servicessection .servicesrow .servicebox p{
@@ -509,14 +509,17 @@ header .contentbox .headercontact li{
 }
 
 .servicessection .servicesrow .servicebox #webdesign{
-  height: 220px;
+  height: 120px;
   width: auto;
-  padding: 20px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   margin-top: -18px;
 }
 
 .servicessection .servicesrow .servicebox #grafischdesign{
-  height: 200px;
+  height: 125px;
   width: auto;
   padding: 20px 10px;
 }
@@ -563,44 +566,22 @@ header .contentbox .headercontact li{
   color: #2a4e9a;
 }
 
-@media only screen and (max-width: 480px){
-  .servicessection .servicesrow .servicebox #webdesign{
-    height: 200px;
-  }
-  .servicessection .servicesrow .servicebox #grafischdesign{
-    height: 180px;
-  }
-  .servicessection .servicesrow .servicebox{
-    margin-bottom: 50px;
-  }
+
+@media only screen and (max-width: 800px){
   .servicessection{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .servicessection .servicesrow .servicebox #webdesign{
-    height: 200px;
-  }
+@media only screen and (max-width: 400px){
   .servicessection .servicesrow .servicebox{
-    margin-bottom: 60px;
-  }
-  .servicessection{
-    padding-bottom: 80px;
+    max-width: 95%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
-@media only screen and (max-width: 380px){
-  .servicessection .servicesrow .servicebox{
-    min-width: 95%
-  }
-  .servicessection .servicesrow .servicebox #webdesign{
-    height: 170px;
-  }
-  .servicessection .servicesrow .servicebox #grafischdesign{
-    height: 150px;
-  }
-}
 
 /*accordion section*/
 
@@ -931,14 +912,14 @@ header .contentbox .headercontact li{
 .reviewtitle{
   display: flex;
   justify-content: center;
-  background-color:#cddeff;
+  background-color:#e6f7fe;
   padding-top: 100px;
   padding-bottom: 30px;
 }
 
 
 .reviews{
-  background-color:#cddeff;
+  background-color:#e6f7fe;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
