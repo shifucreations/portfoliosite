@@ -245,6 +245,15 @@ header .contentbox .headercontact li{
   padding-top: 30px;
 }
 
+@media only screen and (max-width: 580px){
+  .herosection #secondcloud{
+    display: none;
+  }
+  .herosection img{
+    height: 90px;
+  }
+}
+
 /*Contact form section*/
 
 .contact-container{
@@ -448,26 +457,13 @@ header .contentbox .headercontact li{
     color:cadetblue;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .faqsectie .faqcolumn .vragen .vraag h2{
-    font-size: 19px;
-  }
-  .faqsectie .faqcolumn .vragen .vraag p{
-    font-size: 18px;
-  }
-  .faqsectie .faqcolumn .vragen .vraag i{
-    font-size: 27px;
-  }
-  .faqsectie .faqcolumn .topbar{
-    height: 35px;
-  }
-  .faqsectie .faqcolumn .bottombar{
-    height: 35px;
-  }
-  .faqsectie .faqcolumn .vragen{
-    max-height: 470px;
+
+@media only screen and (max-width: 480px){
+  .faqsectie .faqcolumn .vragen .vraag{
+    padding: 0px 15px;
   }
 }
+
 
 /*footer section*/
 

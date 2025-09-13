@@ -1009,6 +1009,12 @@ header .contentbox .headercontact li{
   }
 }
 
+@media only screen and (max-width: 480px){
+  .faqsectie .faqcolumn .vragen .vraag{
+    padding: 0px 15px;
+  }
+}
+
 /*Call to action*/
 .leesmeer{
   display: flex;
