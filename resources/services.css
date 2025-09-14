@@ -648,7 +648,6 @@ header .contentbox .headercontact li{
 .hoetewerk .row .stepcolumn{
   display: flex;
   width: 50%;
-  margin: 50px 0px;
 }
 
 .hoetewerk .row .stepcolumn h1{
@@ -741,7 +740,7 @@ header .contentbox .headercontact li{
     to  { transform: translate(0, -120px); } 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and (max-width: 1000px){
   .hoetewerk .row .stepcolumn{
     width: 85%;
     margin: 20px 0px;
@@ -772,8 +771,8 @@ header .contentbox .headercontact li{
   }
 }
 
-@media only screen and (max-width: 480px){
-  .hoetewerk .row .stepcolumn{
+@media only screen and (max-width: 550px){
+  .hoetewerk .row {
     width: 100%;
   }
   .hoetewerk .row .stepcolumn h2{
@@ -786,9 +785,9 @@ header .contentbox .headercontact li{
     font-size: 17px;
   }
   .hoetewerk .row .iconcolumn img{
-    height: 300px;
+    height: 260px;
   }
-  .hoetewerk .launchrow .stepcolumn{
+  .hoetewerk .launchrow{
     width: 100%;
   }
   .hoetewerk .launchrow .stepcolumn{
@@ -814,6 +813,7 @@ header .contentbox .headercontact li{
   .imagesection img{
     height: 350px;
     margin-left: -320px;
+    overflow: hidden;
   }
   .readytitle h1{
     font-size: 2.5rem;
