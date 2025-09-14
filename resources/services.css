@@ -241,18 +241,6 @@ header .contentbox .headercontact li{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-@media only screen and (max-width: 1440px){
-  .herosection{
-    min-height: 600px;
-  }
-  .herosection #computerscreen{
-    min-height: 450px;
-  }
-  .herosection #computerscreen #titlebox h1{
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
 
 .herosection #computerscreen #titlebox{
   align-content: center;
@@ -297,34 +285,31 @@ header .contentbox .headercontact li{
     height: auto;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .herosection #computerscreen #imagebox img{
-    height:300px;
-  }
-  .herosection #computerscreen #titlebox p{
-    font-size: 18px;
+@media only screen and (max-width: 1440px){
+  .herosection{
+    min-height: 600px;
   }
   .herosection #computerscreen{
-    min-height: 400px;
+    min-height: 450px;
   }
-  .herosection{
-    min-height: 550px;
+  .herosection #computerscreen #titlebox h1{
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
-@media only screen and (max-width: 480px){
-   .herosection #computerscreen #imagebox img{
-    display: none;
+
+@media only screen and (max-width: 1000px){
+  .herosection #computerscreen #imagebox img{
+    display:none;
   }
+}
+
+
+@media only screen and (max-width: 800px){
   .herosection #computerscreen #titlebox p{
     font-size: 17px;
     padding-bottom: 20px;
-  }
-  .herosection #computerscreen{
-    min-height: 350px;
-  }
-  .herosection{
-    min-height: 480px;
   }
   #stand img{
     max-width: 450px;
@@ -409,13 +394,7 @@ header .contentbox .headercontact li{
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .keyboardsection .keyboard h2{
-    font-size: 18px;
-  }
-  .keyboardsection .keyboard p{
-    font-size: 17px;
-  }
+@media only screen and (max-width:800px){
   .keyboardsection .keyboard .item{
     padding: 12px 18px;
   }
@@ -425,17 +404,8 @@ header .contentbox .headercontact li{
 }
 
 @media only screen and (max-width: 480px){
- .keyboardsection .keyboard h2{
-    font-size: 18px;
-  }
-  .keyboardsection .keyboard p{
-    font-size: 17px;
-  }
   .keyboardsection .keyboard .item{
     padding: 14px 18px;
-  }
-  .keyboardsection{
-    padding-bottom: 100px;
   }
 }
 
@@ -447,6 +417,8 @@ header .contentbox .headercontact li{
   font-weight: 700;
   padding-top: 100px;
   padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
   color:black;
   background-color:#d6e1fc;
 }
@@ -465,7 +437,7 @@ header .contentbox .headercontact li{
 .webservices .iconbox{
     background-color: white;
     border-radius: 20px;
-    min-width: 450px;
+    min-width: 350px;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -502,11 +474,15 @@ header .contentbox .headercontact li{
 }
 
 .webservices .iconbox p{
-  max-width: 300px;
   color: rgb(73, 73, 73);
   font-size: 17px;
   font-weight: 500;
   line-height: 1.7rem;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  max-width: 300px;
 }
 
 @media only screen and (max-width: 1440px){
@@ -515,24 +491,15 @@ header .contentbox .headercontact li{
     min-height: 400px;
     margin: 15px;
   }
-
-  .webservices .iconbox p{
-    max-width: 270px;
-  }
   .webservices{
     justify-content: center;
     min-height: 600px;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and  (max-width: 800px){
   .webservices .iconbox h2{
     font-size: 18px;
-  }
-  .webservices .iconbox p{
-    font-size: 17px;
-    max-width: 400px;
-    padding-top: 10px;
   }
   .webservices .iconbox i{
     font-size: 3.2rem;
@@ -541,7 +508,14 @@ header .contentbox .headercontact li{
    flex-direction: column;
   }
   .webservices .iconbox{
-    min-width: 500px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and  (max-width: 500px){
+  .webservices .iconbox{
+    width: 80vw;
   }
 }
 
@@ -619,15 +593,21 @@ header .contentbox .headercontact li{
   }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   .overigeservices .servicescolumn .servicesboxes .service{
-    margin: 50px 0px;
+    margin: 50px 10px;
   }
   .overigeservices .illustratie img{
-    height: 430px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .overigeservices .illustratie h1{
     padding-top: 30px;
+  }
+  .overigeservices{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
