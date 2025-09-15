@@ -81,19 +81,24 @@ header .contentbox .headercontact li{
   padding-top: 10px;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  header img{
-    height: 90px;
-  }
-}
-
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
  header .contentbox{
   margin-right:auto;
   margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
  }
  header img{
   padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px;
+ }
+ header{
+  flex-direction: column;
+ }
+ header .contentbox ul{
+  padding-right: 0px;
  }
 }
 
