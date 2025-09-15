@@ -241,8 +241,6 @@ header .contentbox .headercontact li{
   margin-top: -130px;
 }
 
-
-
 .wallsection .window img{
   border: 7px solid #2d4c9c;
   border-radius: 5px;
@@ -340,7 +338,7 @@ header .contentbox .headercontact li{
   padding-bottom: 15px;
   font-size: 19px;
   line-height: 1.9rem;
-  color:#2a4e9a;
+  color:black;
 }
 
 .herosection #computerscreen #titlebox button{
