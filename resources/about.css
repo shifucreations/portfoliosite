@@ -491,8 +491,7 @@ header .contentbox .headercontact li{
   min-width: 55%;
   padding-top: 50px;
   min-height: 200px;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .leesmeer h1{
@@ -554,13 +553,13 @@ header .contentbox .headercontact li{
 
 .footersection .contentrow .contentbox a{
   text-decoration: none;
-  color:#20bad1;
+  color:#2a4e9a;
   font-weight: 600;
   transition: color 130ms ease-out 100ms;
 }
 
 .footersection .contentrow .contentbox a:hover{
-  color: #7ba4fc;
+  color: #20bad1;
   background-color: rgba(255, 255, 255, 0);
 }
 

@@ -967,13 +967,13 @@ header .contentbox .headercontact li{
 
 .footersection .contentrow .contentbox a{
   text-decoration: none;
-  color:#20bad1;
+  color:#2a4e9a;
   font-weight: 600;
   transition: color 130ms ease-out 100ms;
 }
 
 .footersection .contentrow .contentbox a:hover{
-  color: #7ba4fc;
+  color: #20bad1;
   background-color: rgba(255, 255, 255, 0);
 }
 
