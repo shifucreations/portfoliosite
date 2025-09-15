@@ -778,9 +778,15 @@ header .contentbox .headercontact li{
   .hoetewerk .launchrow .stepcolumn p{
     font-size: 17px;
   }
+  .imagesection img{
+    height: 450px;
+    margin-left: -470px;
+  }
 }
 
-@media only screen and (max-width: 550px){
+
+
+@media only screen and (max-width: 700px){
   .hoetewerk .row {
     width: 100%;
   }
@@ -790,14 +796,12 @@ header .contentbox .headercontact li{
   .hoetewerk .row .stepcolumn h1{
     font-size: 3.1rem;
   }
-  .hoetewerk .row .stepcolumn p{
-    font-size: 17px;
-  }
   .hoetewerk .row .iconcolumn img{
     height: 260px;
   }
   .hoetewerk .launchrow{
     width: 100%;
+    padding: 0px 0px;
   }
   .hoetewerk .launchrow .stepcolumn{
     flex-direction: column;
@@ -808,11 +812,10 @@ header .contentbox .headercontact li{
   }
   .hoetewerk .launchrow .stepcolumn h2{
     font-size: 18px;
-    padding-left: 82px;
+    padding-top: 10px;
   }
   .hoetewerk .launchrow .stepcolumn p{
     font-size: 17px;
-    padding-left: 82px;
   }
   .hoetewerk .launchrow .stepcolumn h1{
     font-size: 3rem;
@@ -821,8 +824,13 @@ header .contentbox .headercontact li{
   }
   .imagesection img{
     height: 350px;
-    margin-left: -320px;
-    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .imagesection{
+    padding-top: 90px;
+    padding-bottom: 0px;
   }
   .readytitle h1{
     font-size: 2.5rem;
@@ -1031,6 +1039,9 @@ header .contentbox .headercontact li{
 
 .leesmeer h1{
   padding-bottom: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 480px){

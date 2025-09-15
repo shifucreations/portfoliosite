@@ -233,14 +233,14 @@ header .contentbox .headercontact li{
 }
 
 .over .portraitimg img{
-  height: 360px;
+  height: 345px;
   width: auto;
   margin-right: 30px;
 }
 
 .over h1{
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .over #intro{
@@ -276,7 +276,7 @@ header .contentbox .headercontact li{
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and (min-width: 481px) and (max-width: 800px){
    .over .portraitimg img{
     height: 300px;
     margin-right: 0px;
@@ -496,23 +496,19 @@ header .contentbox .headercontact li{
 
 .leesmeer h1{
   padding-bottom: 40px;
+  font-size: 2rem;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-@media only screen and (max-width: 480px){
-  .leesmeer h1{
-    font-size: 23px;
-    padding-left: 23px;
-    padding-right: 10px;
-  }
-}
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .leesmeer h1{
-    padding-left: 23px;
-    padding-right: 10px;
-  }
+
+@media only screen and  (max-width: 800px){
   .leesmeer .calltoaction{
     width: 80%;
+  }
+  .leesmeer h1{
+    font-size: 1.7rem;
   }
 }
 
