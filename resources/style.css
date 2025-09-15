@@ -279,35 +279,8 @@ header .contentbox .headercontact li{
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .wallsection .frame img{
-    height: 180px;
-  }
-  .wallsection .window img{
-    height: 290px;
-  }
-  .wallsection{
-    padding-top: 70px;
-  }
-  .wallsection .frame #imageframe{
-  height:172px;
-  }
-}
 
-@media only screen and (max-width: 380px){
-  .wallsection .frame #imageframe{
-    display: none;
-  }
-  .wallsection .frame img{
-    height: 130px;
-  }
-  .wallsection .window img{
-    height: 220px;
-  }
-  .wallsection{
-    padding-top: 60px;
-  }
-}
+
 
 /*herosection*/
 
@@ -347,6 +320,7 @@ header .contentbox .headercontact li{
 
 .herosection #computerscreen #titlebox{
   align-content: center;
+  padding-bottom: 50px;
 }
 
 .herosection #computerscreen #titlebox h1{
@@ -363,7 +337,7 @@ header .contentbox .headercontact li{
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
   font-size: 19px;
   line-height: 1.9rem;
   color:#2a4e9a;
@@ -397,70 +371,10 @@ header .contentbox .headercontact li{
     height: auto;
 }
 
-@media only screen and (max-width: 480px){
-  #stand img{
-    max-width: 450px;
-  }
-  .herosection #computerscreen #imagebox img{
-    height: 350px;
-    margin-top: -100px;
-  }
-  .herosection #computerscreen{
-    margin-top: -110px;
-  }
-  .herosection #computerscreen #titlebox{
-    margin-top: -50px;
-  }
-  .herosection #computerscreen #titlebox p{
-    font-size: 18px;
-    padding-top: 30px;
-  }
-  .herosection #computerscreen #titlebox h1{
-    font-size: 2.2rem;
-  }
-}
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-   #stand img{
-    max-width: 550px;
-  }
-  .herosection #computerscreen #imagebox img{
-    height: 400px;
-    margin-top: -150px;
-    margin-left: -50px;
-  }
-  .herosection #computerscreen{
-    margin-top: -130px;
-    padding-bottom: 40px;
-  }
-  .herosection #computerscreen #titlebox{
-    margin-top: -50px;
-  }
-  .herosection #computerscreen #titlebox p{
-    font-size: 18px;
-    padding-top: 30px;
-  }
-  .herosection #computerscreen #titlebox h1{
-    font-size: 2.2rem;
-  }
-}
 
-@media only screen and (max-width: 380px){
-  .herosection #computerscreen #imagebox img{
-    height: 320px;
-    margin-top: -70px;
-    margin-left: -50px;
-  }
-  .herosection #computerscreen{
-    margin-top: -100px;
-  }
-   .herosection #computerscreen #titlebox p{
-    font-size: 17px;
-  }
-  .herosection #computerscreen #titlebox h1{
-    font-size: 2rem;
-  }
-}
+
+
 
 /*services section*/
 
@@ -739,14 +653,14 @@ header .contentbox .headercontact li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 110px;
     align-content: center;
     padding-right: 10px;
-    height: 400px;
+    padding-bottom: 70px;
     border: 3px solid black;
     background-color: #f6f6f6;
     background-image: url(../resources/images/smallerpaintsplash.png);
-    background-size: 310px;
+    background-size: 300px;
     background-position: top left;
     background-repeat: no-repeat;
 }
@@ -767,7 +681,7 @@ header .contentbox .headercontact li{
     font-size: 17px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   .ideeen h1{
     font-size: 2.3rem;
     padding-right: 20px;
@@ -775,46 +689,21 @@ header .contentbox .headercontact li{
     padding-bottom: 30px;
   }
    .ideeen .overmij .overmijtext{
-    background-size: 280px;
+    background-size: 200px;
   }
   .ideeen img{
-    margin-left: -230px;
+    margin-left: -50px;
     height: 80px;
   }
 }
 
-@media only screen and (max-width: 380px){
-  .ideeen h1{
-    font-size: 2.3rem;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-   .ideeen .overmij .overmijtext{
-    background-size: 220px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-  }
+@media only screen and (max-width: 880px){
   .ideeen img{
-    margin-left: -180px;
-    height: 75px;
+    margin-left: -300px;
+    height: 80px;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-  .ideeen h1{
-    font-size: 2.6rem;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-   .ideeen .overmij .overmijtext{
-    background-size: 280px;
-  }
-  .ideeen img{
-    margin-left: -380px;
-  }
-}
 
 
 /*recente projecten*/
