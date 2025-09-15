@@ -443,16 +443,20 @@ header .contentbox .headercontact li{
     background-color: white;
     border-radius: 20px;
     min-width: 350px;
-    min-height: 400px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 30px;
-    align-content: center;
+    align-content: flex-start;
+    transition: transform 0.5s ease-out;
     align-items: center;
     box-shadow: 0 4px 4px 0 rgba(134, 134, 134, 0.2), 0 5px 14px 0 rgba(138, 138, 138, 0.19);
-    transition: background-color 200ms ease-out 100ms;
+}
+
+.webservices .iconbox:hover{
+  transform: scale(1.05);
 }
 
 .webservices .iconbox h2{
@@ -461,17 +465,6 @@ header .contentbox .headercontact li{
   font-weight: 600;
 }
 
-.webservices #completewebsite:hover{
-  background-color: #e6f7fe;
-}
-
-.webservices #onepager:hover{
-  background-color: #e6f7fe;
-}
-
-.webservices #onderhoud:hover{
-  background-color: #e6f7fe;
-}
 
 .webservices .iconbox i{
   font-size: 3rem;
@@ -493,7 +486,6 @@ header .contentbox .headercontact li{
 @media only screen and (max-width: 1440px){
   .webservices .iconbox{
     min-width: 350px;
-    min-height: 400px;
     margin: 15px;
   }
   .webservices{
@@ -521,6 +513,9 @@ header .contentbox .headercontact li{
 @media only screen and  (max-width: 500px){
   .webservices .iconbox{
     width: 80vw;
+  }
+  .webservices .iconbox:hover{
+    transform: none;
   }
 }
 
@@ -564,8 +559,14 @@ header .contentbox .headercontact li{
   border-radius: 20px;
   margin: 50px 20px;
   padding: 50px 20px;
+  transition: transform 0.5s ease-out;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.overigeservices .servicescolumn .servicesboxes .service:hover{
+  transform: scale(1.05);
+}
+
 
 .overigeservices .servicescolumn .servicesboxes .service i{
   font-size: 3rem;
@@ -613,6 +614,9 @@ header .contentbox .headercontact li{
   .overigeservices{
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .overigeservices .servicescolumn .servicesboxes .service:hover{
+    transform: none;
   }
 }
 
