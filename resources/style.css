@@ -832,14 +832,17 @@ header .contentbox .headercontact li{
   font-weight: 700;
   color:black;
   padding-top: 120px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
   background-color:#cddeff;
 }
 
 .projecten .previewimage img{
-  height: 230px;
+  height: 210px;
   width: auto;
   margin-right: 40px;
+  margin-top: 40px;
 }
 
 .portfoliobutton{
@@ -865,38 +868,14 @@ header .contentbox .headercontact li{
 
 @media only screen and (max-width: 480px){
   .projecten .previewimage img{
-    height:200px;
-    margin-top: 40px;
+    width: 80vw;
+    height: auto;
     margin-right: 0px;
-  }
-  .projectentitle h1{
-    padding-bottom: 40px;
   }
 }
 
-@media only screen and (max-width: 380px){
-  .projecten .previewimage img{
-    height:170px;
-  }
-  .projectentitle h1{
-    font-size: 2rem;
-  }
-  .portfoliobutton button{
-  padding: 20px 25px;
-  font-size: 17px;
-}
-}
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
-   .projecten .previewimage img{
-    height: 230px;
-    margin-top: 40px;
-    margin-right: 0px;
-  }
-  .projectentitle h1{
-    padding-bottom: 40px;
-  }
-}
+
 
 /*review section*/
 
