@@ -243,7 +243,7 @@ header .contentbox .headercontact li{
 }
 
 .portfoliohero .illustrationcolumn img{
-  height: 280px;
+  height: 300px;
   width: auto;
 }
 
@@ -260,7 +260,13 @@ header .contentbox .headercontact li{
     padding-bottom: 50px;
   }
   .portfoliohero .illustrationcolumn img{
-    height: 220px;
+    height: 240px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .portfoliohero .illustrationcolumn img{
+    height: 200px;
   }
 }
 
