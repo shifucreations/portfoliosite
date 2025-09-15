@@ -486,9 +486,9 @@ header .contentbox .headercontact li{
   align-items: center;
   justify-content: center;
   max-width: 380px;
-  border: 2px solid black;
+  border: 2px solid #2a4e9a;
   border-radius: 20px;
-  box-shadow: rgb(0, 0, 0) 3px 3px;
+  box-shadow: #2a4e9a 4px 4px;
   background-color: #cddeff;
   margin: 40px 60px;
 }
