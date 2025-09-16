@@ -267,10 +267,7 @@ header .contentbox .headercontact li{
   }
 }
 
-@media only screen and (max-width: 480px){
-  .wallsection .frame #imageframe{
-    display: none;
-  }
+@media only screen and (max-width: 980px){
   .wallsection .frame img{
     height: 150px;
   }
@@ -279,6 +276,32 @@ header .contentbox .headercontact li{
   }
   .wallsection{
     padding-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  .wallsection .frame #imageframe{
+    display: none;
+  }
+  .wallsection .frame img{
+    height: 130px;
+  }
+  .wallsection .window img{
+    height: 220px;
+    margin-top: -20px;
+  }
+  .wallsection{
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+   .wallsection .frame img{
+    height: 110px;
+  }
+  .wallsection .window img{
+    height: 190px;
+    margin-top: -20px;
   }
 }
 
@@ -381,6 +404,14 @@ header .contentbox .headercontact li{
   .herosection #computerscreen #imagebox img{
     display: none;
   }
+  .herosection #computerscreen{
+    margin-top: -110px;
+    padding-top: 70px;
+    padding-right: 60px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    min-height: 0px;
+  }
 }
 
 
@@ -390,17 +421,25 @@ header .contentbox .headercontact li{
     padding-bottom: 20px;
     padding-top: 20px;
   }
-  #stand img{
-    max-width: 450px;
-  }
   .herosection #computerscreen #titlebox h1{
     font-size: 1.8rem;
   }
+  #stand img{
+    max-width: 450px;
+  }
   .herosection #computerscreen{
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    margin-top: -110px;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    min-height: 0px;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  .herosection #computerscreen{
+    margin-top: -95px;
   }
 }
 
