@@ -20,23 +20,6 @@ h2{
   padding-bottom: 10px;
 }
 
-button{
-  background-color:#e6f7fe;
-  color: rgb(70, 70, 70);
-  font-weight: 600;
-  border-radius: 7px;
-  font-size: 15px;
-  padding: 15px 17px;
-  box-shadow: rgb(0, 0, 0) 3px 3px;
-  border: 2px solid black;
-  transition: all 250ms ease-out 100ms;
-}
-
-button:hover{
-  background-color: #cddeff;
-  box-shadow: none;
-  cursor: pointer;
-}
 
 
 /*header section*/
@@ -216,100 +199,84 @@ header .contentbox .headercontact li{
 
 
 
-/*working contact form test*/
-.contact-container{
-  background-color:#cddeff;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content:space-evenly;
-}
-
-.contact-left{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 20px;
-}
-
-.contact-left-title h1{
-  margin-bottom: 6px;
-  color:#2a4e9a;
-}
-
-.contact-left-title hr{
-  border: none;
-  width: 120px;
-  height: 4px;
-  background: #2a4e9a;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.contact-inputs{
-  width: 400px;
+    
+button {
+  width: 110px;
   height: 50px;
-  border: none;
-  border-radius: 10px;
+  position: relative;
+  background: none;
   outline: none;
-  padding-left: 25px;
-  font-weight: 500;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  background: #e6f7fe;
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  color: rgb(36, 38, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  outline: 2px solid rgb(36, 38, 34);
+  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
 }
 
-.contact-left textarea{
-  height: 140px;
-  padding-top: 15px;
+.bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c3dee9;
+  top: 10px;
+  left: 0;
+  border-radius: 15px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: -1;
 }
 
-.contact-inputs::placeholder{
-  color:#a9a9a9;
+.bottom::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 15%;
 }
 
-.contact-left button{
-  width: 300px;
-  font-size: 17px;
-  margin-left: auto;
-  margin-right: auto;
+.bottom::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 85%;
+}
+      
+button:active .top {
+  transform: translateY(10px);
 }
 
-.contact-left button i{
-  font-size: 1.2rem;
-  padding-left: 15px;
+button::before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 2px);
+  height: 100%;
+  background: #2a4e9a;
+  top: 14px;
+  left: -1px;
+  border-radius: 15px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: -1;
 }
-
-.contact-right{
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
-}
-
-.contact-right .iconbox{
-  text-align: center;
-  margin: 30px 0px;
-}
-
-.contact-right .iconbox i{
-  background-color:#e6f7fe;
-  border-radius: 50%;
-  padding: 15px 15px;
-  box-shadow: rgb(0, 0, 0) 3px 3px;
-  font-size: 1.3rem;
-}
-
-.contact-right .iconbox h2{
-  padding-top: 40px;
-}
-
-@media only screen and (max-width: 800px){
-  .contact-inputs{
-    width: 80vw;
-  }
-  .contact-right{
-    padding-top: 70px;
-  }
+    
+button:active .top::before {
+  left: calc(100% + 20px);
 }
