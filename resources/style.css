@@ -302,6 +302,7 @@ header .contentbox .headercontact li{
   .wallsection .window img{
     height: 190px;
     margin-top: -20px;
+    overflow: hidden;
   }
 }
 
