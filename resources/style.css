@@ -249,7 +249,7 @@ header .contentbox .headercontact li{
 .wallsection .window img{
   border: 7px solid #2d4c9c;
   border-radius: 5px;
-  height: 350px;
+  height: 400px;
   width: auto;
   background-image: url(../resources/images/miniclouds.png);
   background-size: contain;
@@ -331,7 +331,8 @@ header .contentbox .headercontact li{
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
-  min-height: 490px;
+  min-height: 500px;
+  min-width: 50%;
   padding-top: 40px;
   padding-right: 60px;
   padding-left: 50px;
@@ -398,28 +399,6 @@ header .contentbox .headercontact li{
     height: auto;
 }
 
-@media only screen and (min-width: 1441px){
-  .herosection #computerscreen{
-    margin-top: -150px;
-    padding-right: 70px;
-    padding-left: 60px;
-  }
-  .herosection #computerscreen #titlebox h1{
-    padding-left: 50px;
-  }
-
-  .herosection #computerscreen #titlebox p{
-    padding-left: 50px;
-  }
-  .herosection #computerscreen #titlebox button{
-    margin-left: 50px;
-  }
-  .herosection #computerscreen #imagebox img{
-    margin-right: -20px;
-    margin-top: -230px;
-    height: 550px;
-  }
-}
 
 @media only screen and (max-width: 1440px){
   .herosection #computerscreen{
