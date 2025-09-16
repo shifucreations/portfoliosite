@@ -372,20 +372,30 @@ header .contentbox .headercontact li{
 }
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 980px){
   .herosection #computerscreen #imagebox img{
-    display:none;
+    display: none;
   }
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
   .herosection #computerscreen #titlebox p{
     font-size: 17px;
     padding-bottom: 20px;
+    padding-top: 20px;
   }
   #stand img{
     max-width: 450px;
+  }
+  .herosection #computerscreen #titlebox h1{
+    font-size: 1.8rem;
+  }
+  .herosection #computerscreen{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
   }
 }
 
