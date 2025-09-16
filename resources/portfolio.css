@@ -195,6 +195,11 @@ header .contentbox .headercontact li{
     .navbar-container .navbar-menu.active{
       display: flex;
     }
+    .navbar-container{
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
     .navbar-toggle{
       display: block;
       z-index: 100;

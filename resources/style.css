@@ -193,6 +193,11 @@ header .contentbox .headercontact li{
       padding: 5rem 1.5rem;
       background-color:#2a4e9a;
     }
+    .navbar-container{
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
     .navbar-container .navbar-menu.active{
       display: flex;
     }
@@ -232,13 +237,13 @@ header .contentbox .headercontact li{
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .wallsection .frame img{
-  height: 180px;
+  height: 170px;
   width: auto;
-  margin-top: -130px;
+  margin-top: -140px;
 }
 
 .wallsection .window img{
