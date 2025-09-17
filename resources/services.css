@@ -51,7 +51,7 @@ header {
 }
 
 header img{
-    height: 120px;
+    height: 100px;
     width: auto;
     display: inline;
     padding-left: 90px;
@@ -1186,7 +1186,7 @@ header .contentbox .headercontact li{
 }
 
 .footersection .contentrow .contentbox img{
-  height: 120px;
+  height: 110px;
   width: auto;
 }
 
