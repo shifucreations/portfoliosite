@@ -310,11 +310,89 @@ header .contentbox .headercontact li{
   color:#a9a9a9;
 }
 
-.contact-left button{
-  width: 300px;
-  font-size: 17px;
+.contact-left button {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
+}
+
+.contact-left .top {
+  width: 100%;
+  height: 100%;
+  background: #e6f7fe;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(36, 38, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
+  z-index: 40
+}
+
+.contact-left .bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c3dee9;
+  top: 10px;
+  left: 0;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: 39;
+}
+
+.contact-left .bottom::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 15%;
+}
+
+.contact-left .bottom::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 85%;
+}
+      
+.contact-left button:active .top {
+  transform: translateY(10px);
+}
+
+.contact-left button::before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 2px);
+  height: 100%;
+  background: #20bad1;
+  top: 14px;
+  left: -1px;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: 39;
+}
+    
+.contact-left button:active .top::before {
+  left: calc(100% + 20px);
 }
 
 .contact-left button i{
