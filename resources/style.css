@@ -20,88 +20,24 @@ h2{
   padding-bottom: 10px;
 }
 
-button {
-  width: 100px;
-  height: 50px;
-  position: relative;
-  background: none;
-  outline: none;
-  border: none;
-  padding: 0;
-  margin: 0;
+button{
+  background-color:#e6f7fe;
+  color: rgb(70, 70, 70);
+  font-weight: 600;
+  border-radius: 7px;
+  font-size: 18px;
+  padding: 20px 27px;
+  box-shadow: rgb(0, 0, 0) 3px 3px;
+  border: 2px solid black;
+  transition: all 250ms ease-out 100ms;
+}
+
+button:hover{
+  background-color: #cddeff;
+  box-shadow: none;
   cursor: pointer;
 }
 
-.top {
-  width: 100%;
-  height: 100%;
-  background: #e6f7fe;
-  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: rgb(36, 38, 34);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  outline: 2px solid rgb(36, 38, 34);
-  transition: 0.2s;
-  position: relative;
-  overflow: hidden;
-  z-index: 40
-}
-
-.bottom {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #c3dee9;
-  top: 10px;
-  left: 0;
-  border-radius: 10px;
-  outline: 2px solid rgb(36, 38, 34);
-  z-index: 39;
-}
-
-.bottom::before {
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: 9px;
-  background: rgb(36, 38, 34);
-  bottom: 0;
-  left: 15%;
-}
-
-.bottom::after {
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: 9px;
-  background: rgb(36, 38, 34);
-  bottom: 0;
-  left: 85%;
-}
-      
-button:active .top {
-  transform: translateY(10px);
-}
-
-button::before {
-  position: absolute;
-  content: "";
-  width: calc(100% + 2px);
-  height: 100%;
-  background: #2a4e9a;
-  top: 14px;
-  left: -1px;
-  border-radius: 10px;
-  outline: 2px solid rgb(36, 38, 34);
-  z-index: 39;
-}
-    
-button:active .top::before {
-  left: calc(100% + 20px);
-}
 
 
 /*header section*/
@@ -439,9 +375,92 @@ header .contentbox .headercontact li{
   margin-top: -230px;
 }
 
-.herosection #computerscreen #titlebox button{
- margin-left: 30px;
+
+
+.herosection button {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin-left: 30px;
+  cursor: pointer;
 }
+
+.herosection .top {
+  width: 100%;
+  height: 100%;
+  background: #e6f7fe;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(36, 38, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
+  z-index: 40
+}
+
+.herosection .bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c3dee9;
+  top: 10px;
+  left: 0;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: 39;
+}
+
+.herosection .bottom::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 15%;
+}
+
+.herosection .bottom::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 85%;
+}
+      
+.herosection button:active .top {
+  transform: translateY(10px);
+}
+
+.herosection button::before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 2px);
+  height: 100%;
+  background: #2a4e9a;
+  top: 14px;
+  left: -1px;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: 39;
+}
+    
+.herosection button:active .top::before {
+  left: calc(100% + 20px);
+}
+
 
 
 #stand{
@@ -732,6 +751,91 @@ header .contentbox .headercontact li{
   padding-bottom: 50px;
 }
 
+.ideeen button {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  background: none;
+  outline: none;
+  border: none;
+  box-shadow:none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.ideeen .top {
+  width: 100%;
+  height: 100%;
+  background: #e6f7fe;
+  font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(36, 38, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
+  z-index: 40
+}
+
+.ideeen .bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c3dee9;
+  top: 10px;
+  left: 0;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: 39;
+}
+
+.ideeen .bottom::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 15%;
+}
+
+.ideeen .bottom::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 9px;
+  background: rgb(36, 38, 34);
+  bottom: 0;
+  left: 85%;
+}
+      
+.ideeen button:active .top {
+  transform: translateY(10px);
+}
+
+.ideeen button::before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 2px);
+  height: 100%;
+  background: #2a4e9a;
+  top: 14px;
+  left: -1px;
+  border-radius: 10px;
+  outline: 2px solid rgb(36, 38, 34);
+  z-index: 39;
+}
+    
+.ideeen button:active .top::before {
+  left: calc(100% + 20px);
+}
+
+
 
 .ideeen h1{
   text-align: center;
@@ -879,9 +983,16 @@ header .contentbox .headercontact li{
 }
 
 .portfoliobutton button {
-  width: 210px;
+  width: 220px;
   height: 70px;
-  padding: 5px 5px;
+  position: relative;
+  background: none;
+  outline: none;
+  border: none;
+  box-shadow:none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 .portfoliobutton .top {
@@ -889,18 +1000,17 @@ header .contentbox .headercontact li{
   height: 100%;
   background: #e6f7fe;
   font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 16px;
   color: rgb(36, 38, 34);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  outline: 2px solid #2a4e9a;
+  outline: 2px solid rgb(36, 38, 34);
   transition: 0.2s;
   position: relative;
   overflow: hidden;
-  z-index: 40;
+  z-index: 40
 }
 
 .portfoliobutton .bottom {
@@ -908,10 +1018,10 @@ header .contentbox .headercontact li{
   width: 100%;
   height: 100%;
   background: #c3dee9;
-  top: 13px;
+  top: 10px;
   left: 0;
   border-radius: 10px;
-  outline: 2px solid #2a4e9a;
+  outline: 2px solid rgb(36, 38, 34);
   z-index: 39;
 }
 
@@ -919,26 +1029,24 @@ header .contentbox .headercontact li{
   position: absolute;
   content: "";
   width: 2px;
-  height: 20px;
-  background: #2a4e9a;
+  height: 9px;
+  background: rgb(36, 38, 34);
   bottom: 0;
-  left: 3%;
-  transform: rotate(5deg);
+  left: 15%;
 }
 
 .portfoliobutton .bottom::after {
   position: absolute;
   content: "";
   width: 2px;
-  height: 22px;
-  background: #2a4e9a;
+  height: 9px;
+  background: rgb(36, 38, 34);
   bottom: 0;
-  left: 97%;
-  transform: rotate(-5deg);
+  left: 85%;
 }
       
 .portfoliobutton button:active .top {
-  transform: translateY(6px);
+  transform: translateY(10px);
 }
 
 .portfoliobutton button::before {
@@ -946,17 +1054,18 @@ header .contentbox .headercontact li{
   content: "";
   width: calc(100% + 2px);
   height: 100%;
-  background: #20bad1;
+  background: #2a4e9a;
   top: 14px;
   left: -1px;
   border-radius: 10px;
-  outline: 2px solid #2a4e9a;
+  outline: 2px solid rgb(36, 38, 34);
   z-index: 39;
 }
     
 .portfoliobutton button:active .top::before {
   left: calc(100% + 20px);
 }
+
 
 
 
