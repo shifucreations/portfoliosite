@@ -1137,6 +1137,10 @@ header .contentbox .headercontact li{
   transform: translateY(10px);
 }
 
+.leesmeer .top:hover{
+  transform: translateY(3px);
+}
+
 .leesmeer button::before {
   position: absolute;
   content: "";

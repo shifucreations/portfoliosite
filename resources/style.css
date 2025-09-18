@@ -452,6 +452,10 @@ header .contentbox .headercontact li{
   transform: translateY(10px);
 }
 
+.herosection .top:hover{
+  transform: translateY(3px);
+}
+
 .herosection button::before {
   position: absolute;
   content: "";
@@ -826,6 +830,10 @@ header .contentbox .headercontact li{
   transform: translateY(10px);
 }
 
+.ideeen .top:hover{
+  transform: translateY(3px);
+}
+
 .ideeen button::before {
   position: absolute;
   content: "";
@@ -1055,6 +1063,10 @@ header .contentbox .headercontact li{
       
 .portfoliobutton button:active .top {
   transform: translateY(10px);
+}
+
+.portfoliobutton .top:hover{
+  transform: translateY(3px);
 }
 
 .portfoliobutton button::before {
