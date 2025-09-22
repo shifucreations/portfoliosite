@@ -756,9 +756,7 @@ header .contentbox .headercontact li{
 
 .imagesection img{
   animation-name: floating;
-  animation-duration: 4s;
-  animation-iteration-count:infinite;
-  animation-timing-function: ease-in-out;
+  animation-timeline: view();
   margin-top: -300px;
   margin-bottom: -300px;
   height: 500px;
