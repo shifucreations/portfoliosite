@@ -868,6 +868,17 @@ header .contentbox .headercontact li{
   height: 100px;
   width: auto;
   margin-left: -430px;
+  animation: rotate;
+  animation-timeline: view();
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(-35deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
 }
 
 
